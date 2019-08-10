@@ -1,0 +1,44 @@
+{
+  "Notice: Dialog Alert": {
+    "prefix": "vanalert",
+    "body": [
+      "Dialog.alert({",
+      "\t title: '标题'",
+      "\t message: '弹出的内容'",
+      "\t}).then(() => {",
+      "\t",
+      "\t})"
+    ],
+    "description": "Vant alert"
+  },
+  "Notice: Dialog Confirm": {
+    "prefix": "vanconfirm",
+    "body": [
+      "Dialog.confirm({",
+      "\t title: '标题'",
+      "\t message: '弹出的内容'",
+      "\t}).then(() => {",
+      "\t",
+      "\t}).catch(() => {",
+      "\t",
+      "\t})"
+    ],
+    "description": "Vant confirm"
+  },
+  "Notice: Notify": {
+    "prefix": "vannotify",
+    "body": [
+      "Notify({",
+      "\t title: '标题'",
+      "\t duration: 2000",
+      "\t background: '#1989fa'",
+      "\t})"
+    ],
+    "description": "Vant Notify"
+  },
+  "Notice: Toast": {
+    "prefix": "vantoast",
+    "body": ["Toast('提示内容')"],
+    "description": "Vant Toast"
+  }
+}

@@ -147,5 +147,118 @@
     "prefix": "vanuploader",
     "body": ["<van-uploader  :after-read=\"\" />"],
     "description": "Vant <van-uploader>"
+  },
+
+  "Notice: van-dialog": {
+    "prefix": "vandialog",
+    "body": ["<van-dialog v-model=\"${1}\" title=\"\" ></van-dialog>"],
+    "description": "Vant <van-dialog>"
+  },
+  "Notice: Dialog Alert": {
+    "prefix": "vanalert",
+    "body": [
+      "Dialog.alert({",
+      "\t title: '标题',",
+      "\t message: '弹出的内容',",
+      "\t}).then(() => {",
+      "\t ${1}",
+      "\t})"
+    ],
+    "description": "Vant alert"
+  },
+  "Notice: Dialog Confirm": {
+    "prefix": "vanconfirm",
+    "body": [
+      "Dialog.confirm({",
+      "\t title: '标题',",
+      "\t message: '弹出的内容',",
+      "\t}).then(() => {",
+      "\t ${1}",
+      "\t}).catch(() => {",
+      "\t ${2}",
+      "\t})"
+    ],
+    "description": "Vant confirm"
+  },
+
+  "Notice: Notify": {
+    "prefix": "vannotify",
+    "body": [
+      "Notify({",
+      "\t title: '标题',",
+      "\t duration: 2000,",
+      "\t background: '#1989fa'",
+      "})"
+    ],
+    "description": "Vant Notify"
+  },
+
+  "Notice: Toast": {
+    "prefix": "vantoast",
+    "body": ["Toast('提示内容')"],
+    "description": "Vant Toast"
+  },
+
+  "Notice: van-loading": {
+    "prefix": "vanloading",
+    "body": ["<van-loading type=\"${1|circular,spinner|}\" />"],
+    "description": "Vant <van-loading>"
+  },
+  "Notice: van-overlay": {
+    "prefix": "vanoverlay",
+    "body": ["<van-overlay :show=\"\" />"],
+    "description": "Vant <van-overlay>"
+  },
+  "Notice: van-action-sheet": {
+    "prefix": "vansheet",
+    "body": [
+      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
+    ],
+    "description": "Vant <van-action-sheet>"
+  },
+  "Notice: van-dropdown-menu": {
+    "prefix": "vandropdownmenu",
+    "body": [
+      "<van-dropdown-menu>",
+      "\t<van-dropdown-item v-model=\"\" :options=\"\" />",
+      "\t<van-dropdown-item v-model=\"\" :options=\"\" />",
+      "</van-dropdown-menu>"
+    ],
+    "description": "Vant <van-dropdown-menu>"
+  },
+  "Notice: van-pull-refresh": {
+    "prefix": "vanrefresh",
+    "body": [
+      "<van-pull-refresh v-model=\"${1}\" @refresh=\"\" ></van-pull-refresh>"
+    ],
+    "description": "Vant <van-pull-refresh>"
+  },
+  "Notice: van-swipe-cell": {
+    "prefix": "vanswipecell",
+    "body": [
+      "<van-swipe-cell>",
+      "\t <template slot=\"left\">",
+      "\t   <van-button square type=\"primary\" text=\"选择\" />",
+      "\t </template>",
+      "\t <van-cell :border=\"false\" title=\"单元格\" value=\"内容\" />",
+      "\t <template slot=\"right\">",
+      "\t   <van-button square type=\"danger\" text=\"删除\" />",
+      "\t   <van-button square type=\"primary\" text=\"收藏\"/>",
+      "\t </template>",
+      "</van-swipe-cell>"
+    ],
+    "description": "Vant <van-swipe-cell>"
+  },
+  "Notice: Message": {
+    "prefix": "elme",
+    "body": [
+      "this.\\$message({",
+      "\tmessage: '$1',",
+      "\ttype: '${2|info,success,warning,error|}',",
+      "\tshowClose: ${3:true},",
+      "});",
+      "${4}"
+    ],
+    "description": "Element UI $message"
   }
 }
