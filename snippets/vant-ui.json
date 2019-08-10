@@ -8,13 +8,13 @@
       "</van-row>",
       "${5}"
     ],
-    "description": "Vant UI <van-row> with <van-col>"
+    "description": "Vant <van-row> with <van-col>"
   },
 
   "Basic: Layout van-col": {
     "prefix": "vancol",
     "body": ["<van-col :span=\"${1}\">${2}</van-col>", "${3}"],
-    "description": "Vant UI <van-col>"
+    "description": "Vant <van-col>"
   },
 
   "Basic: Layout van-row-flex": {
@@ -27,7 +27,7 @@
       "</van-row>",
       "${7}"
     ],
-    "description": "Vant UI <van-row type='flex'>"
+    "description": "Vant <van-row type='flex'>"
   },
 
   "Basic: van-button": {
@@ -36,7 +36,7 @@
       "<van-button type=\"${1|primary,info,warning,danger|}\"  @click=\"$2\"></van-button>",
       "${3}"
     ],
-    "description": "Vant UI <van-button>"
+    "description": "Vant <van-button>"
   },
 
   "Basic: van-cell": {
@@ -48,13 +48,13 @@
       "</van-cell-group>",
       "${5}"
     ],
-    "description": "Vant UI <van-cell>"
+    "description": "Vant <van-cell>"
   },
 
   "Basic: van-icon": {
     "prefix": "vanicon",
     "body": ["<van-icon name=\"${1}\" />"],
-    "description": "Vant UI <van-icon>"
+    "description": "Vant <van-icon>"
   },
 
   "Basic: van-image": {
@@ -62,12 +62,90 @@
     "body": [
       "<van-image src=\"${1}\" type=\"${2|contain,cover,fill,none,sscale-down|}\"  />"
     ],
-    "description": "Vant UI <van-image>"
+    "description": "Vant <van-image>"
   },
 
   "Basic: van-popup": {
     "prefix": "vanpopup",
     "body": ["<van-popup v-model=\"${1}\"></van-popup>"],
-    "description": "Vant UI <van-popup>"
+    "description": "Vant <van-popup>"
+  },
+
+  "Form: van-field": {
+    "prefix": "vanfield",
+    "body": [
+      "<van-field type=\"${1|text,password,textarea,number,tel|}\" v-model=\"${2}\" placeholder=\"\" />"
+    ],
+    "description": "Vant <van-field>"
+  },
+
+  "Form: van-radio": {
+    "prefix": "vanradio",
+    "body": [
+      "<van-radio-group v-model=\"\">",
+      "\t<van-radio name=\"1\">${1}</van-radio>",
+      "\t<van-radio name=\"2\">${2}</van-radio>",
+      "</van-radio-group>",
+      "${5}"
+    ],
+    "description": "Vant <van-radio>"
+  },
+
+  "Form: van-checkbox": {
+    "prefix": "vancheckbox",
+    "body": ["<van-checkbox  v-model=\"${1}\">复选框</van-checkbox>"],
+    "description": "Vant <van-checkbox>"
+  },
+
+  "Form: van-rate": {
+    "prefix": "vanrate",
+    "body": ["<van-rate  v-model=\"${1}\"/>"],
+    "description": "Vant <van-rate>"
+  },
+
+  "Form: van-search": {
+    "prefix": "vansearch",
+    "body": [
+      "<van-search  v-model=\"${1}\" placeholder=\"请输入搜索关键词\" />"
+    ],
+    "description": "Vant <van-search>"
+  },
+
+  "Form: van-slider": {
+    "prefix": "vanslider",
+    "body": ["<van-slider v-model=\"${1}\" @change=\"\" />"],
+    "description": "Vant <van-slider>"
+  },
+
+  "Form: van-stepper": {
+    "prefix": "vanstepper",
+    "body": ["<van-stepper v-model=\"${1}\" />"],
+    "description": "Vant <van-stepper>"
+  },
+
+  "Form: van-switch": {
+    "prefix": "vanswitch",
+    "body": ["<van-switch v-model=\"${1}\" />"],
+    "description": "Vant <van-switch>"
+  },
+
+  "Form: van-picker": {
+    "prefix": "vanpicker",
+    "body": ["<van-picker  :columns=\"${1}\" @change=\"\" />"],
+    "description": "Vant <van-picker>"
+  },
+
+  "Form: van-datetime-picker": {
+    "prefix": "vandate",
+    "body": [
+      "<van-datetime-picker  type=\"${1|datetime,year-month|}\" v-model=\"${2}\" />"
+    ],
+    "description": "Vant <van-datetime-picker>"
+  },
+
+  "Form: van-uploader": {
+    "prefix": "vanuploader",
+    "body": ["<van-uploader  :after-read=\"\" />"],
+    "description": "Vant <van-uploader>"
   }
 }

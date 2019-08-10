@@ -10,10 +10,14 @@
     "snippets"
   ],
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhsy/vant-snippets"
+  },
   "publisher": "fishku",
   "galleryBanner": {
-    "color": "#E6E0EA",
-    "theme": "light"
+    "color": "#549BFF",
+    "theme": "dark"
   },
   "activationEvents": [
     "onLanguage:vuejs"
@@ -33,6 +37,10 @@
     "snippets": [
       {
         "language": "vue",
+        "path": "./snippets/vant-ui.json"
+      },
+      {
+        "language": "html",
         "path": "./snippets/vant-ui.json"
       }
     ]
