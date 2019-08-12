@@ -264,7 +264,9 @@
 
   "Display: van-circle": {
     "prefix": "vancircle",
-    "body": ["<van-circle v-model=\"${1}\" :rate=\"\" :speed=\"\" :text=\"\" />"],
+    "body": [
+      "<van-circle v-model=\"${1}\" :rate=\"\" :speed=\"\" :text=\"\" />"
+    ],
     "description": "Vant <van-circle>"
   },
   "Display: van-progress": {
@@ -363,5 +365,88 @@
     "prefix": "vantag",
     "body": ["<van-tag type=\"${2|primary,danger,success|}\">${1}</van-tag>"],
     "description": "Vant <van-tag>"
+  },
+
+  "Navigation: van-grid": {
+    "prefix": "vangrid",
+    "body": [
+      "<van-grid>",
+      "\t <van-grid-item v-for=\"value in 4\" :key=\"value\" icon=\"photo-o\" text=\"文字\"/>",
+      "</van-grid>"
+    ],
+    "description": "Vant <van-grid>"
+  },
+  "Navigation: van-index-bar": {
+    "prefix": "vanindexbar",
+    "body": [
+      "<van-index-bar>",
+      "\t <van-index-anchor index=\"A\" />",
+      "\t   <van-cell title=\"文本\" />",
+      "\t   <van-cell title=\"文本\" />",
+      "\t   <van-cell title=\"文本\" />",
+      "\n",
+      "\t <van-index-anchor index=\"B\" />",
+      "\t     <van-cell title=\"文本\" />",
+      "\t     <van-cell title=\"文本\" />",
+      "\t     <van-cell title=\"文本\" />",
+      "</van-index-bar>"
+    ],
+    "description": "Vant <van-index-bar>"
+  },
+  "Navigation: van-nav-bar": {
+    "prefix": "vannavbar",
+    "body": [
+      "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"\" @click-right=\"\"/>"
+    ],
+    "description": "Vant <van-nav-bar>"
+  },
+  "Navigation: van-pagination": {
+    "prefix": "vanpagination",
+    "body": [
+      "<van-pagination v-model=\"\" :total-items=\"\" :items-per-page=\"\" />"
+    ],
+    "description": "Vant <van-pagination>"
+  },
+  "Navigation: van-sidebar": {
+    "prefix": "vansidebar",
+    "body": [
+      "<van-sidebar v-model=\"\">",
+      "\t <van-sidebar-item title=\"标签名称\" />",
+      "\t <van-sidebar-item title=\"标签名称\" />",
+      "\t <van-sidebar-item title=\"标签名称\" />",
+      "</van-sidebar>"
+    ],
+    "description": "Vant <van-sidebar>"
+  },
+  "Navigation: van-tabs": {
+    "prefix": "vantabs",
+    "body": [
+      "<van-tabs v-model=\"\">",
+      "\t <van-tab title=\"标签1\">内容 1</van-tab>",
+      "\t <van-tab title=\"标签2\">内容 2</van-tab>",
+      "\t <van-tab title=\"标签3\">内容 3</van-tab>",
+      "\t <van-tab title=\"标签4\">内容 4</van-tab>",
+      "</van-tabs>"
+    ],
+    "description": "Vant <van-tabs>"
+  },
+  "Navigation: van-tabbar": {
+    "prefix": "vantabbar",
+    "body": [
+      "<van-tabbar v-model=\"\">",
+      "\t <van-tabbar-item icon=\"home-o\">菜单1</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"search\">菜单2</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"friends-o\">菜单3</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"setting-o\">菜单4</van-tabbar-item>",
+      "</van-tabbar>"
+    ],
+    "description": "Vant <van-tabbar>"
+  },
+  "Navigation: van-tree-select": {
+    "prefix": "vantreeselect",
+    "body": [
+      "<van-tree-select :items=\"\" :main-active-index=\"\" :active-id=\"\" @click-nav=\"\" @click-item=\"\" />"
+    ],
+    "description": "Vant <van-tree-select>"
   }
 }
