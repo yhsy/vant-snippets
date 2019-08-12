@@ -260,5 +260,108 @@
       "${4}"
     ],
     "description": "Element UI $message"
+  },
+
+  "Display: van-circle": {
+    "prefix": "vancircle",
+    "body": ["<van-circle v-model=\"${1}\" :rate=\"\" :speed=\"\" :text=\"\" />"],
+    "description": "Vant <van-circle>"
+  },
+  "Display: van-progress": {
+    "prefix": "vanprogress",
+    "body": ["<van-progress :percentage=\"50\" />"],
+    "description": "Vant <van-progress>"
+  },
+  "Display: van-collapse": {
+    "prefix": "vancollapse",
+    "body": [
+      "<van-collapse v-model=\"\">",
+      "\t <van-collapse-item title=\"标题1\" name=\"1\">内容1</van-collapse-item>",
+      "\t <van-collapse-item title=\"标题2\" name=\"2\">内容2</van-collapse-item>",
+      "\t <van-collapse-item title=\"标题3\" name=\"3\">内容3</van-collapse-item>",
+      "</van-collapse>"
+    ],
+    "description": "Vant <van-collapse>"
+  },
+  "Display: van-count-down": {
+    "prefix": "vancountdown",
+    "body": ["<van-count-down :time=\"${1}\" />"],
+    "description": "Vant <van-count-down>"
+  },
+  "Display: van-divider": {
+    "prefix": "vandivider",
+    "body": ["<van-divider>文字</van-divider>"],
+    "description": "Vant <van-divider>"
+  },
+  "Display: van-lazy": {
+    "prefix": "vanlazy",
+    "body": ["<img v-for=\"img in imageList\" v-lazy=\"img\" />"],
+    "description": "Vant <van-lazy>"
+  },
+  "Display: van-list": {
+    "prefix": "vanlist",
+    "body": [
+      "<van-list v-model=\"\" :finished=\"\" finished-text=\"没有更多了\" @load=\"\">",
+      "\t <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\"/>",
+      "</van-list>"
+    ],
+    "description": "Vant <van-list>"
+  },
+  "Display: van-notice-bar": {
+    "prefix": "vannoticebar",
+    "body": ["<van-notice-bar text=\"通知内容\" left-icon=\"volume-o\" />"],
+    "description": "Vant <van-notice-bar>"
+  },
+  "Display: van-panel": {
+    "prefix": "vanpanel",
+    "body": [
+      "<van-panel  title=\"标题\" desc=\"描述信息\" status=\"状态\">",
+      "\t <div>内容</div>",
+      "</van-panel>"
+    ],
+    "description": "Vant <van-panel>"
+  },
+  "Display: van-skeleton": {
+    "prefix": "vanskeleton",
+    "body": ["<van-skeleton title :row=\"3\" />"],
+    "description": "Vant <van-skeleton>"
+  },
+  "Display: van-steps": {
+    "prefix": "vansteps",
+    "body": [
+      "<van-steps :active=\"active\">",
+      "\t <van-step>步骤1</van-step>",
+      "\t <van-step>步骤2</van-step>",
+      "\t <van-step>步骤3</van-step>",
+      "\t <van-step>步骤4</van-step>",
+      "</van-steps>"
+    ],
+    "description": "Vant <van-steps>"
+  },
+  "Display: van-sticky": {
+    "prefix": "vansticky",
+    "body": [
+      "<van-sticky>",
+      "\t <van-button type=\"primary\">基础用法</van-button>",
+      "</van-sticky>"
+    ],
+    "description": "Vant <van-sticky>"
+  },
+  "Display: van-swipe": {
+    "prefix": "vanswipe",
+    "body": [
+      "<van-swipe :autoplay=\"3000\" indicator-color=\"white\">",
+      "\t <van-swipe-item>1</van-swipe-item>",
+      "\t <van-swipe-item>2</van-swipe-item>",
+      "\t <van-swipe-item>3</van-swipe-item>",
+      "\t <van-swipe-item>4</van-swipe-item>",
+      "</van-swipe>"
+    ],
+    "description": "Vant <van-swipe>"
+  },
+  "Display: van-tag": {
+    "prefix": "vantag",
+    "body": ["<van-tag type=\"${2|primary,danger,success|}\">${1}</van-tag>"],
+    "description": "Vant <van-tag>"
   }
 }
