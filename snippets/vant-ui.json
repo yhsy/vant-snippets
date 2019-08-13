@@ -149,12 +149,12 @@
     "description": "Vant <van-uploader>"
   },
 
-  "Notice: van-dialog": {
+  "Action: van-dialog": {
     "prefix": "vandialog",
     "body": ["<van-dialog v-model=\"${1}\" title=\"\" ></van-dialog>"],
     "description": "Vant <van-dialog>"
   },
-  "Notice: Dialog Alert": {
+  "Action: Dialog Alert": {
     "prefix": "vanalert",
     "body": [
       "Dialog.alert({",
@@ -166,7 +166,7 @@
     ],
     "description": "Vant alert"
   },
-  "Notice: Dialog Confirm": {
+  "Action: Dialog Confirm": {
     "prefix": "vanconfirm",
     "body": [
       "Dialog.confirm({",
@@ -180,8 +180,7 @@
     ],
     "description": "Vant confirm"
   },
-
-  "Notice: Notify": {
+  "Action: Notify": {
     "prefix": "vannotify",
     "body": [
       "Notify({",
@@ -192,31 +191,29 @@
     ],
     "description": "Vant Notify"
   },
-
-  "Notice: Toast": {
+  "Action: Toast": {
     "prefix": "vantoast",
     "body": ["Toast('提示内容')"],
     "description": "Vant Toast"
   },
-
-  "Notice: van-loading": {
+  "Action: van-loading": {
     "prefix": "vanloading",
     "body": ["<van-loading type=\"${1|circular,spinner|}\" />"],
     "description": "Vant <van-loading>"
   },
-  "Notice: van-overlay": {
+  "Action: van-overlay": {
     "prefix": "vanoverlay",
     "body": ["<van-overlay :show=\"\" />"],
     "description": "Vant <van-overlay>"
   },
-  "Notice: van-action-sheet": {
+  "Action: van-action-sheet": {
     "prefix": "vansheet",
     "body": [
       "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
     ],
     "description": "Vant <van-action-sheet>"
   },
-  "Notice: van-dropdown-menu": {
+  "Action: van-dropdown-menu": {
     "prefix": "vandropdownmenu",
     "body": [
       "<van-dropdown-menu>",
@@ -226,14 +223,14 @@
     ],
     "description": "Vant <van-dropdown-menu>"
   },
-  "Notice: van-pull-refresh": {
+  "Action: van-pull-refresh": {
     "prefix": "vanrefresh",
     "body": [
       "<van-pull-refresh v-model=\"${1}\" @refresh=\"\" ></van-pull-refresh>"
     ],
     "description": "Vant <van-pull-refresh>"
   },
-  "Notice: van-swipe-cell": {
+  "Action: van-swipe-cell": {
     "prefix": "vanswipecell",
     "body": [
       "<van-swipe-cell>",
@@ -249,7 +246,7 @@
     ],
     "description": "Vant <van-swipe-cell>"
   },
-  "Notice: Message": {
+  "Action: Message": {
     "prefix": "elme",
     "body": [
       "this.\\$message({",
@@ -448,5 +445,156 @@
       "<van-tree-select :items=\"\" :main-active-index=\"\" :active-id=\"\" @click-nav=\"\" @click-item=\"\" />"
     ],
     "description": "Vant <van-tree-select>"
+  },
+
+  "Business: van-address-edit": {
+    "prefix": "vanaddressedit",
+    "body": [
+     "<van-address-edit",
+        "\t :area-list=\"\"",
+        "\t show-postal",
+        "\t show-delete",
+        "\t show-set-default",
+        "\t show-search-result",
+        "\t :search-result=\"\"",
+        "\t @save=\"\"",
+        "\t @delete=\"\"",
+        "\t @change-detail=\"\"",
+      "/>"
+    ],
+    "description": "Vant <van-address-edit>"
+  },
+  "Business: van-address-list": {
+    "prefix": "vanaddresslist",
+    "body": [
+     "<van-address-list",
+        "\t :area-list=\"\"",
+        "\t v-model=\"\"",
+        "\t :list=\"\"",
+        "\t :disabled-list=\"\"",
+        "\t disabled-text=\"\"",
+        "\t @add=\"\"",
+        "\t @edit=\"\"",
+      "/>"
+    ],
+    "description": "Vant <van-address-list>"
+  },
+  "Business: van-area": {
+    "prefix": "vanarea",
+    "body": [
+      "<van-area :area-list=\"\" />"
+    ],
+    "description": "Vant <van-area>"
+  },
+  "Business: van-card": {
+    "prefix": "vancard",
+    "body": [
+     "<van-card",
+        "\t num=\"2\"",
+        "\t price=\"2.00\"",
+        "\t desc=\"描述信息\"",
+        "\t title=\"商品标题\"",
+        "\t thumb=\"https://img.yzcdn.cn/vant/t-thirt.jpg\"",
+      "/>"
+    ],
+    "description": "Vant <van-card>"
+  },
+  "Business: van-contact-card": {
+    "prefix": "vancontactcard",
+    "body": [
+     "<!-- 联系人卡片 -->",
+     "<van-contact-card",
+        "\t :type=\"\"",
+        "\t :name=\"\"",
+        "\t :tel=\"\"",
+        "\t @click=\"\"",
+      "/>",
+      "\t",
+      "<!-- 联系人列表 -->",
+      "<van-popup v-model=\"\" position=\"\">",
+        "\t<van-contact-list",
+          "\t   v-model=\"\"",
+          "\t   :list=\"\"",
+          "\t   @add=\"\"",
+          "\t   @edit=\"\"",
+          "\t   @select=\"\"",
+        "\t/>",
+      "</van-popup>",
+      "\t",
+      "<!-- 联系人编辑 -->",
+      "<van-popup v-model=\"\" position=\"\">",
+       "\t<van-contact-edit",
+          "\t   :contact-info=\"\"",
+          "\t   :is-edit=\"\"",
+          "\t   @save=\"\"",
+          "\t   @delete=\"\"",
+       "\t/>",
+      "</van-popup>"
+    ],
+    "description": "Vant <van-contact-card>"
+  },
+  "Business: van-coupon": {
+    "prefix": "vancoupon",
+    "body": [
+      "<!-- 优惠券单元格 -->",
+      "<van-coupon-cell",
+        "\t :coupons=\"\"",
+        "\t :chosen-coupon=\"\"",
+        "\t @click=\"\"",
+      "/>",
+      "\t",
+      "<!-- 优惠券列表 -->",
+      "<van-popup v-model=\"\" position=\"\">",
+        "\t<van-coupon-list",
+          "\t   v-model=\"\"",
+          "\t   :coupons=\"\"",
+          "\t   :chosen-coupon=\"\"",
+          "\t   :disabled-coupons=\"\"",
+          "\t   @change=\"\"",
+          "\t   @exchange=\"\"",
+        "\t/>",
+      "</van-popup>"
+    ],
+    "description": "Vant <van-coupon>"
+  },
+  "Business: van-goods-action": {
+    "prefix": "vangoodsaction",
+    "body": [
+      "<van-goods-action>",
+        "\t <van-goods-action-icon icon=\"chat-o\" text=\"客服\"   @click=\"\"/>",
+        "\t <van-goods-action-icon icon=\"cart-o\" text=\"购物车\" @click=\"\"/>",
+        "\t <van-goods-action-icon-button type=\"warning\" text=\"加入购物车\" @click=\"\"/>",
+        "\t <van-goods-action-icon-button type=\"danger\"  text=\"立即购买\"   @click=\"\"/>",
+      "</van-goods-action>"
+    ],
+    "description": "Vant <van-goods-action>"
+  },
+  "Business: van-submit-bar": {
+    "prefix": "vansubmitbar",
+    "body": [
+     "<van-submit-bar",
+        "\t :price=\"\"",
+        "\t button-text=\"提交订单\"",
+        "\t @submit=\"\"",
+      "/>"
+    ],
+    "description": "Vant <van-submit-bar>"
+  },
+  "Business: van-sku": {
+    "prefix": "vansku",
+    "body": [
+     "<van-sku",
+        "\t :sku=\"\"",
+        "\t :goods=\"\"",
+        "\t :goods-id=\"\"",
+        "\t :quota=\"\"",
+        "\t :quota-used=\"\"",
+        "\t :hide-stock=\"\"",
+        "\t :message-config=\"\"",
+        "\t @buy-clicked=\"\"",
+        "\t @add-cart=\"\"",
+      "/>"
+    ],
+    "description": "Vant <van-sku>"
   }
 }
