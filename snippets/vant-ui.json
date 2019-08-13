@@ -58,7 +58,7 @@
   },
 
   "Basic: van-image": {
-    "prefix": "vani",
+    "prefix": "vanimg",
     "body": [
       "<van-image src=\"${1}\" type=\"${2|contain,cover,fill,none,sscale-down|}\"  />"
     ],
