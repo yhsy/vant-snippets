@@ -1,6 +1,6 @@
 {
   "Basic: Layout van-row": {
-    "prefix": "vanrow",
+    "prefix": "vanr",
     "body": [
       "<van-row>",
       "\t<van-col :span=\"${1:12}\">${3}</van-col>",
@@ -12,13 +12,13 @@
   },
 
   "Basic: Layout van-col": {
-    "prefix": "vancol",
+    "prefix": "vanc",
     "body": ["<van-col :span=\"${1}\">${2}</van-col>", "${3}"],
     "description": "Vant <van-col>"
   },
 
   "Basic: Layout van-row-flex": {
-    "prefix": "vanflex",
+    "prefix": "vanrf",
     "body": [
       "<van-row type=\"flex\" justify=\"${1|start,center,end,space-between,space-around|}\" >",
       "\t<van-col :span=\"${2:8}\">${5}</van-col>",
@@ -58,7 +58,7 @@
   },
 
   "Basic: van-image": {
-    "prefix": "vanimage",
+    "prefix": "vani",
     "body": [
       "<van-image src=\"${1}\" type=\"${2|contain,cover,fill,none,sscale-down|}\"  />"
     ],
@@ -72,7 +72,7 @@
   },
 
   "Form: van-field": {
-    "prefix": "vanfield",
+    "prefix": "vanfd",
     "body": [
       "<van-field type=\"${1|text,password,textarea,number,tel|}\" v-model=\"${2}\" placeholder=\"\" />"
     ],
@@ -80,7 +80,7 @@
   },
 
   "Form: van-radio": {
-    "prefix": "vanradio",
+    "prefix": "vanrd",
     "body": [
       "<van-radio-group v-model=\"\">",
       "\t<van-radio name=\"1\">${1}</van-radio>",
@@ -92,7 +92,7 @@
   },
 
   "Form: van-checkbox": {
-    "prefix": "vancheckbox",
+    "prefix": "vanck",
     "body": ["<van-checkbox  v-model=\"${1}\">复选框</van-checkbox>"],
     "description": "Vant <van-checkbox>"
   },
@@ -130,7 +130,7 @@
   },
 
   "Form: van-picker": {
-    "prefix": "vanpicker",
+    "prefix": "vanpk",
     "body": ["<van-picker  :columns=\"${1}\" @change=\"\" />"],
     "description": "Vant <van-picker>"
   },
@@ -144,18 +144,18 @@
   },
 
   "Form: van-uploader": {
-    "prefix": "vanuploader",
+    "prefix": "vanup",
     "body": ["<van-uploader  :after-read=\"\" />"],
     "description": "Vant <van-uploader>"
   },
 
   "Action: van-dialog": {
-    "prefix": "vandialog",
+    "prefix": "vandg",
     "body": ["<van-dialog v-model=\"${1}\" title=\"\" ></van-dialog>"],
     "description": "Vant <van-dialog>"
   },
   "Action: Dialog Alert": {
-    "prefix": "vanalert",
+    "prefix": "vanal",
     "body": [
       "Dialog.alert({",
       "\t title: '标题',",
@@ -167,7 +167,7 @@
     "description": "Vant alert"
   },
   "Action: Dialog Confirm": {
-    "prefix": "vanconfirm",
+    "prefix": "vancf",
     "body": [
       "Dialog.confirm({",
       "\t title: '标题',",
@@ -181,7 +181,7 @@
     "description": "Vant confirm"
   },
   "Action: Notify": {
-    "prefix": "vannotify",
+    "prefix": "vannt",
     "body": [
       "Notify({",
       "\t title: '标题',",
@@ -192,29 +192,29 @@
     "description": "Vant Notify"
   },
   "Action: Toast": {
-    "prefix": "vantoast",
+    "prefix": "vants",
     "body": ["Toast('提示内容')"],
     "description": "Vant Toast"
   },
   "Action: van-loading": {
-    "prefix": "vanloading",
+    "prefix": "vanld",
     "body": ["<van-loading type=\"${1|circular,spinner|}\" />"],
     "description": "Vant <van-loading>"
   },
   "Action: van-overlay": {
-    "prefix": "vanoverlay",
+    "prefix": "vanol",
     "body": ["<van-overlay :show=\"\" />"],
     "description": "Vant <van-overlay>"
   },
   "Action: van-action-sheet": {
-    "prefix": "vansheet",
+    "prefix": "vanas",
     "body": [
       "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
     ],
     "description": "Vant <van-action-sheet>"
   },
   "Action: van-dropdown-menu": {
-    "prefix": "vandropdownmenu",
+    "prefix": "vandm",
     "body": [
       "<van-dropdown-menu>",
       "\t<van-dropdown-item v-model=\"\" :options=\"\" />",
@@ -224,14 +224,14 @@
     "description": "Vant <van-dropdown-menu>"
   },
   "Action: van-pull-refresh": {
-    "prefix": "vanrefresh",
+    "prefix": "vanpr",
     "body": [
       "<van-pull-refresh v-model=\"${1}\" @refresh=\"\" ></van-pull-refresh>"
     ],
     "description": "Vant <van-pull-refresh>"
   },
   "Action: van-swipe-cell": {
-    "prefix": "vanswipecell",
+    "prefix": "vansc",
     "body": [
       "<van-swipe-cell>",
       "\t <template slot=\"left\">",
@@ -245,18 +245,6 @@
       "</van-swipe-cell>"
     ],
     "description": "Vant <van-swipe-cell>"
-  },
-  "Action: Message": {
-    "prefix": "elme",
-    "body": [
-      "this.\\$message({",
-      "\tmessage: '$1',",
-      "\ttype: '${2|info,success,warning,error|}',",
-      "\tshowClose: ${3:true},",
-      "});",
-      "${4}"
-    ],
-    "description": "Element UI $message"
   },
 
   "Display: van-circle": {
@@ -283,17 +271,17 @@
     "description": "Vant <van-collapse>"
   },
   "Display: van-count-down": {
-    "prefix": "vancountdown",
+    "prefix": "vancd",
     "body": ["<van-count-down :time=\"${1}\" />"],
     "description": "Vant <van-count-down>"
   },
   "Display: van-divider": {
-    "prefix": "vandivider",
+    "prefix": "vandv",
     "body": ["<van-divider>文字</van-divider>"],
     "description": "Vant <van-divider>"
   },
   "Display: van-lazy": {
-    "prefix": "vanlazy",
+    "prefix": "vanlz",
     "body": ["<img v-for=\"img in imageList\" v-lazy=\"img\" />"],
     "description": "Vant <van-lazy>"
   },
@@ -307,12 +295,12 @@
     "description": "Vant <van-list>"
   },
   "Display: van-notice-bar": {
-    "prefix": "vannoticebar",
+    "prefix": "vanntb",
     "body": ["<van-notice-bar text=\"通知内容\" left-icon=\"volume-o\" />"],
     "description": "Vant <van-notice-bar>"
   },
   "Display: van-panel": {
-    "prefix": "vanpanel",
+    "prefix": "vanpn",
     "body": [
       "<van-panel  title=\"标题\" desc=\"描述信息\" status=\"状态\">",
       "\t <div>内容</div>",
@@ -321,7 +309,7 @@
     "description": "Vant <van-panel>"
   },
   "Display: van-skeleton": {
-    "prefix": "vanskeleton",
+    "prefix": "vansk",
     "body": ["<van-skeleton title :row=\"3\" />"],
     "description": "Vant <van-skeleton>"
   },
@@ -347,7 +335,7 @@
     "description": "Vant <van-sticky>"
   },
   "Display: van-swipe": {
-    "prefix": "vanswipe",
+    "prefix": "vansw",
     "body": [
       "<van-swipe :autoplay=\"3000\" indicator-color=\"white\">",
       "\t <van-swipe-item>1</van-swipe-item>",
@@ -374,7 +362,7 @@
     "description": "Vant <van-grid>"
   },
   "Navigation: van-index-bar": {
-    "prefix": "vanindexbar",
+    "prefix": "vanib",
     "body": [
       "<van-index-bar>",
       "\t <van-index-anchor index=\"A\" />",
@@ -391,21 +379,21 @@
     "description": "Vant <van-index-bar>"
   },
   "Navigation: van-nav-bar": {
-    "prefix": "vannavbar",
+    "prefix": "vannb",
     "body": [
       "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"\" @click-right=\"\"/>"
     ],
     "description": "Vant <van-nav-bar>"
   },
   "Navigation: van-pagination": {
-    "prefix": "vanpagination",
+    "prefix": "vanpg",
     "body": [
       "<van-pagination v-model=\"\" :total-items=\"\" :items-per-page=\"\" />"
     ],
     "description": "Vant <van-pagination>"
   },
   "Navigation: van-sidebar": {
-    "prefix": "vansidebar",
+    "prefix": "vansd",
     "body": [
       "<van-sidebar v-model=\"\">",
       "\t <van-sidebar-item title=\"标签名称\" />",
@@ -428,7 +416,7 @@
     "description": "Vant <van-tabs>"
   },
   "Navigation: van-tabbar": {
-    "prefix": "vantabbar",
+    "prefix": "vantbar",
     "body": [
       "<van-tabbar v-model=\"\">",
       "\t <van-tabbar-item icon=\"home-o\">菜单1</van-tabbar-item>",
@@ -440,7 +428,7 @@
     "description": "Vant <van-tabbar>"
   },
   "Navigation: van-tree-select": {
-    "prefix": "vantreeselect",
+    "prefix": "vantrs",
     "body": [
       "<van-tree-select :items=\"\" :main-active-index=\"\" :active-id=\"\" @click-nav=\"\" @click-item=\"\" />"
     ],
@@ -448,7 +436,7 @@
   },
 
   "Business: van-address-edit": {
-    "prefix": "vanaddressedit",
+    "prefix": "vanade",
     "body": [
      "<van-address-edit",
         "\t :area-list=\"\"",
@@ -465,7 +453,7 @@
     "description": "Vant <van-address-edit>"
   },
   "Business: van-address-list": {
-    "prefix": "vanaddresslist",
+    "prefix": "vanadl",
     "body": [
      "<van-address-list",
         "\t :area-list=\"\"",
@@ -500,7 +488,7 @@
     "description": "Vant <van-card>"
   },
   "Business: van-contact-card": {
-    "prefix": "vancontactcard",
+    "prefix": "vanctc",
     "body": [
      "<!-- 联系人卡片 -->",
      "<van-contact-card",
@@ -534,7 +522,7 @@
     "description": "Vant <van-contact-card>"
   },
   "Business: van-coupon": {
-    "prefix": "vancoupon",
+    "prefix": "vancoup",
     "body": [
       "<!-- 优惠券单元格 -->",
       "<van-coupon-cell",
@@ -558,7 +546,7 @@
     "description": "Vant <van-coupon>"
   },
   "Business: van-goods-action": {
-    "prefix": "vangoodsaction",
+    "prefix": "vangoods",
     "body": [
       "<van-goods-action>",
         "\t <van-goods-action-icon icon=\"chat-o\" text=\"客服\"   @click=\"\"/>",
@@ -570,7 +558,7 @@
     "description": "Vant <van-goods-action>"
   },
   "Business: van-submit-bar": {
-    "prefix": "vansubmitbar",
+    "prefix": "vansbar",
     "body": [
      "<van-submit-bar",
         "\t :price=\"\"",
