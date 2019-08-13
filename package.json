@@ -1,6 +1,14 @@
 {
   "name": "vant-snippets",
   "displayName": "Vant Snippets",
+  "version": "0.1.0",
+  "publisher": "SS",
+  "author": {
+    "name": "fishku"
+  },
+  "categories": [
+    "Snippets"
+  ],
   "description": "Vant Snippets for VS Code",
   "icon": "images/logo.png",
   "keywords": [
@@ -9,12 +17,6 @@
     "vue",
     "snippets"
   ],
-  "version": "0.0.1",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/yhsy/vant-snippets"
-  },
-  "publisher": "fishku",
   "galleryBanner": {
     "color": "#549BFF",
     "theme": "dark"
@@ -25,22 +27,35 @@
   "engines": {
     "vscode": "^1.0.0"
   },
-  "categories": [
-    "Snippets"
-  ],
+
   "main": "./out/extension",
   "devDependencies": {
     "vscode": "0.10.x"
   },
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yhsy/vant-snippets/issues",
+    "email": "juerui@vip.qq.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yhsy/vant-snippets"
+  },
   "contributes": {
     "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/element-ui.json"
+      }, {
+        "language": "html",
+        "path": "./snippets/element-ui.json"
+      },
       {
         "language": "vue",
         "path": "./snippets/vant-ui.json"
       },
       {
-        "language": "html",
+        "language": "vue-html",
         "path": "./snippets/vant-ui.json"
       }
     ]
