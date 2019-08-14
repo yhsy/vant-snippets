@@ -2,14 +2,19 @@
  * @Description: Vant Snippets
  * @Author: fishku
  * @Date: 2019-08-12 08:44:25
- * @LastEditTime: 2019-08-13 12:11:30
+ * @LastEditTime: 2019-08-14 15:33:33
  * @LastEditors: Please set LastEditors
  -->
 ## This is Code Snippets of Vant for VS Code. (Vant Version: v2.1.2)
-### Git: [Vant Snippets](https://github.com/yhsy/vant-snippets) 
+### Git: 
+[Vant Snippets](https://github.com/yhsy/vant-snippets) 
 
-### Thinks: [Element-UI-Snippets-VSCode](https://github.com/snowffer/Element-UI-Snippets-VSCode) 
+### Thanks: 
+[小茗同学](http://blog.haoji.me/vscode-plugin-overview.html)
+[Element-UI-Snippets-VSCode](https://github.com/snowffer/Element-UI-Snippets-VSCode) 
 
+### Autocomplete
+![autocomplete](https://github.com/yhsy/vant-snippets/blob/master/images/vant-auto1.gif)
 
 ### Snippets List
 1. All the Vant tags below, ignore the closure and more detailed information. Such as `vanr` to `<van-row>`
