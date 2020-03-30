@@ -3,17 +3,31 @@
     "prefix": "vanr",
     "body": [
       "<van-row>",
-      "\t<van-col :span=\"${1:12}\">${3}</van-col>",
-      "\t<van-col :span=\"${2:12}\">${4}</van-col>",
-      "</van-row>",
-      "${5}"
+      "\t<van-col span=\"${1:12}\">${2}</van-col>",
+      "\t<van-col span=\"${3:12}\">${4}</van-col>",
+      "</van-row>"
     ],
     "description": "Vant <van-row> with <van-col>"
   },
-
+  "Basic: Layout van-row-gutter": {
+    "prefix": "vanrowg",
+    "body": [
+      "<van-row gutter=\"${1:16}\">",
+      "\t<van-col span=\"8\">${2}</van-col>",
+      "\t<van-col span=\"8\">${3}</van-col>",
+      "\t<van-col span=\"8\">${4}</van-col>",
+      "</van-row>"
+    ],
+    "description": "Vant <van-row> with <van-col>"
+  },
   "Basic: Layout van-col": {
     "prefix": "vanc",
-    "body": ["<van-col :span=\"${1}\">${2}</van-col>", "${3}"],
+    "body": ["<van-col span=\"${1}\">${2}</van-col>"],
+    "description": "Vant <van-col>"
+  },
+  "Basic: Layout van-col-offset": {
+    "prefix": "vancolo",
+    "body": ["<van-col span=\"${1}\" offset=\"${2}\">${3}</van-col>"],
     "description": "Vant <van-col>"
   },
 
@@ -21,14 +35,14 @@
     "prefix": "vanrf",
     "body": [
       "<van-row type=\"flex\" justify=\"${1|start,center,end,space-between,space-around|}\" >",
-      "\t<van-col :span=\"${2:8}\">${5}</van-col>",
-      "\t<van-col :span=\"${3:8}\">${6}</van-col>",
-      "\t<van-col :span=\"${4:8}\">${7}</van-col>",
-      "</van-row>",
-      "${7}"
+      "\t<van-col span=\"${2:6}\">${5}</van-col>",
+      "\t<van-col span=\"${3:6}\">${6}</van-col>",
+      "\t<van-col span=\"${4:6}\">${7}</van-col>",
+      "</van-row>"
     ],
     "description": "Vant <van-row type='flex'>"
   },
+
 
   "Basic: van-button": {
     "prefix": "vanb",
