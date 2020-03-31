@@ -7,7 +7,7 @@
       "\t<van-col span=\"${3:12}\">${4}</van-col>",
       "</van-row>"
     ],
-    "description": "Vant <van-row><van-col></van-col> <van-row>"
+    "description": "Vant <van-row>栅格布局<van-row>"
   },
   "Basic: Layout van-row-gutter": {
     "prefix": "vanrowg",
@@ -18,21 +18,21 @@
       "\t<van-col span=\"8\">${4}</van-col>",
       "</van-row>"
     ],
-    "description": "Vant <van-row gutter=\"\"> <van-col>with</van-col> <van-crow>"
+    "description": "Vant <van-row gutter=\"\">栅格布局-设置列元素间距<van-crow>"
   },
   "Basic: Layout van-col": {
     "prefix": "vanc",
     "body": [
       "<van-col span=\"${1}\">${2}</van-col>"
     ],
-    "description": "Vant <van-col span=\"\"></van-col>"
+    "description": "Vant <van-col span=\"\">栅格布局-列元素</van-col>"
   },
   "Basic: Layout van-col-offset": {
     "prefix": "vancolo",
     "body": [
       "<van-col span=\"${1}\" offset=\"${2}\">${3}</van-col>"
     ],
-    "description": "Vant <van-col offset=\"\"></van-col>"
+    "description": "Vant <van-col offset=\"\">栅格布局-列元素偏移距离</van-col>"
   },
   "Basic: Layout van-row-flex": {
     "prefix": "vanrf",
@@ -43,15 +43,14 @@
       "\t<van-col span=\"${4:6}\">${7}</van-col>",
       "</van-row>"
     ],
-    "description": "Vant <van-row type='flex'></van-row>"
+    "description": "Vant <van-row type='flex'>flex布局</van-row>"
   },
   "Basic: van-button": {
     "prefix": "vanb",
     "body": [
-      "<van-button type=\"${1|primary,info,warning,danger,default|}\"  @click=\"$2\"></van-button>",
-      "${3}"
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\">${2}</van-button>"
     ],
-    "description": "Vant <van-button>"
+    "description": "Vant <van-button>按钮</van-button>"
   },
   "Basic: van-cell": {
     "prefix": "vancell",
