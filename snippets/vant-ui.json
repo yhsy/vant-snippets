@@ -7,7 +7,7 @@
       "\t<van-col span=\"${3:12}\">${4}</van-col>",
       "</van-row>"
     ],
-    "description": "Vant <van-row> with <van-col>"
+    "description": "Vant <van-row><van-col></van-col> <van-row>"
   },
   "Basic: Layout van-row-gutter": {
     "prefix": "vanrowg",
@@ -18,19 +18,22 @@
       "\t<van-col span=\"8\">${4}</van-col>",
       "</van-row>"
     ],
-    "description": "Vant <van-row> with <van-col>"
+    "description": "Vant <van-row gutter=\"\"> <van-col>with</van-col> <van-crow>"
   },
   "Basic: Layout van-col": {
     "prefix": "vanc",
-    "body": ["<van-col span=\"${1}\">${2}</van-col>"],
-    "description": "Vant <van-col>"
+    "body": [
+      "<van-col span=\"${1}\">${2}</van-col>"
+    ],
+    "description": "Vant <van-col span=\"\"></van-col>"
   },
   "Basic: Layout van-col-offset": {
     "prefix": "vancolo",
-    "body": ["<van-col span=\"${1}\" offset=\"${2}\">${3}</van-col>"],
-    "description": "Vant <van-col>"
+    "body": [
+      "<van-col span=\"${1}\" offset=\"${2}\">${3}</van-col>"
+    ],
+    "description": "Vant <van-col offset=\"\"></van-col>"
   },
-
   "Basic: Layout van-row-flex": {
     "prefix": "vanrf",
     "body": [
@@ -40,19 +43,16 @@
       "\t<van-col span=\"${4:6}\">${7}</van-col>",
       "</van-row>"
     ],
-    "description": "Vant <van-row type='flex'>"
+    "description": "Vant <van-row type='flex'></van-row>"
   },
-
-
   "Basic: van-button": {
     "prefix": "vanb",
     "body": [
-      "<van-button type=\"${1|primary,info,warning,danger|}\"  @click=\"$2\"></van-button>",
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\"  @click=\"$2\"></van-button>",
       "${3}"
     ],
     "description": "Vant <van-button>"
   },
-
   "Basic: van-cell": {
     "prefix": "vancell",
     "body": [
@@ -64,13 +64,13 @@
     ],
     "description": "Vant <van-cell>"
   },
-
   "Basic: van-icon": {
     "prefix": "vanicon",
-    "body": ["<van-icon name=\"${1}\" />"],
+    "body": [
+      "<van-icon name=\"${1}\" />"
+    ],
     "description": "Vant <van-icon>"
   },
-
   "Basic: van-image": {
     "prefix": "vanimg",
     "body": [
@@ -78,13 +78,13 @@
     ],
     "description": "Vant <van-image>"
   },
-
   "Basic: van-popup": {
     "prefix": "vanpopup",
-    "body": ["<van-popup v-model=\"${1}\"></van-popup>"],
+    "body": [
+      "<van-popup v-model=\"${1}\"></van-popup>"
+    ],
     "description": "Vant <van-popup>"
   },
-
   "Form: van-field": {
     "prefix": "vanfd",
     "body": [
@@ -92,7 +92,6 @@
     ],
     "description": "Vant <van-field>"
   },
-
   "Form: van-radio": {
     "prefix": "vanrd",
     "body": [
@@ -104,19 +103,20 @@
     ],
     "description": "Vant <van-radio>"
   },
-
   "Form: van-checkbox": {
     "prefix": "vanck",
-    "body": ["<van-checkbox  v-model=\"${1}\">复选框</van-checkbox>"],
+    "body": [
+      "<van-checkbox  v-model=\"${1}\">复选框</van-checkbox>"
+    ],
     "description": "Vant <van-checkbox>"
   },
-
   "Form: van-rate": {
     "prefix": "vanrate",
-    "body": ["<van-rate  v-model=\"${1}\"/>"],
+    "body": [
+      "<van-rate  v-model=\"${1}\"/>"
+    ],
     "description": "Vant <van-rate>"
   },
-
   "Form: van-search": {
     "prefix": "vansearch",
     "body": [
@@ -124,31 +124,34 @@
     ],
     "description": "Vant <van-search>"
   },
-
   "Form: van-slider": {
     "prefix": "vanslider",
-    "body": ["<van-slider v-model=\"${1}\" @change=\"\" />"],
+    "body": [
+      "<van-slider v-model=\"${1}\" @change=\"\" />"
+    ],
     "description": "Vant <van-slider>"
   },
-
   "Form: van-stepper": {
     "prefix": "vanstepper",
-    "body": ["<van-stepper v-model=\"${1}\" />"],
+    "body": [
+      "<van-stepper v-model=\"${1}\" />"
+    ],
     "description": "Vant <van-stepper>"
   },
-
   "Form: van-switch": {
     "prefix": "vanswitch",
-    "body": ["<van-switch v-model=\"${1}\" />"],
+    "body": [
+      "<van-switch v-model=\"${1}\" />"
+    ],
     "description": "Vant <van-switch>"
   },
-
   "Form: van-picker": {
     "prefix": "vanpk",
-    "body": ["<van-picker  :columns=\"${1}\" @change=\"\" />"],
+    "body": [
+      "<van-picker  :columns=\"${1}\" @change=\"\" />"
+    ],
     "description": "Vant <van-picker>"
   },
-
   "Form: van-datetime-picker": {
     "prefix": "vandate",
     "body": [
@@ -156,16 +159,18 @@
     ],
     "description": "Vant <van-datetime-picker>"
   },
-
   "Form: van-uploader": {
     "prefix": "vanup",
-    "body": ["<van-uploader  :after-read=\"\" />"],
+    "body": [
+      "<van-uploader  :after-read=\"\" />"
+    ],
     "description": "Vant <van-uploader>"
   },
-
   "Action: van-dialog": {
     "prefix": "vandg",
-    "body": ["<van-dialog v-model=\"${1}\" title=\"\" ></van-dialog>"],
+    "body": [
+      "<van-dialog v-model=\"${1}\" title=\"\" ></van-dialog>"
+    ],
     "description": "Vant <van-dialog>"
   },
   "Action: Dialog Alert": {
@@ -207,17 +212,23 @@
   },
   "Action: Toast": {
     "prefix": "vants",
-    "body": ["Toast('提示内容')"],
+    "body": [
+      "Toast('提示内容')"
+    ],
     "description": "Vant Toast"
   },
   "Action: van-loading": {
     "prefix": "vanld",
-    "body": ["<van-loading type=\"${1|circular,spinner|}\" />"],
+    "body": [
+      "<van-loading type=\"${1|circular,spinner|}\" />"
+    ],
     "description": "Vant <van-loading>"
   },
   "Action: van-overlay": {
     "prefix": "vanol",
-    "body": ["<van-overlay :show=\"\" />"],
+    "body": [
+      "<van-overlay :show=\"\" />"
+    ],
     "description": "Vant <van-overlay>"
   },
   "Action: van-action-sheet": {
@@ -260,7 +271,6 @@
     ],
     "description": "Vant <van-swipe-cell>"
   },
-
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
@@ -270,7 +280,9 @@
   },
   "Display: van-progress": {
     "prefix": "vanprogress",
-    "body": ["<van-progress :percentage=\"50\" />"],
+    "body": [
+      "<van-progress :percentage=\"50\" />"
+    ],
     "description": "Vant <van-progress>"
   },
   "Display: van-collapse": {
@@ -286,17 +298,23 @@
   },
   "Display: van-count-down": {
     "prefix": "vancd",
-    "body": ["<van-count-down :time=\"${1}\" />"],
+    "body": [
+      "<van-count-down :time=\"${1}\" />"
+    ],
     "description": "Vant <van-count-down>"
   },
   "Display: van-divider": {
     "prefix": "vandv",
-    "body": ["<van-divider>文字</van-divider>"],
+    "body": [
+      "<van-divider>文字</van-divider>"
+    ],
     "description": "Vant <van-divider>"
   },
   "Display: van-lazy": {
     "prefix": "vanlz",
-    "body": ["<img v-for=\"img in imageList\" v-lazy=\"img\" />"],
+    "body": [
+      "<img v-for=\"img in imageList\" v-lazy=\"img\" />"
+    ],
     "description": "Vant <van-lazy>"
   },
   "Display: van-list": {
@@ -310,7 +328,9 @@
   },
   "Display: van-notice-bar": {
     "prefix": "vanntb",
-    "body": ["<van-notice-bar text=\"通知内容\" left-icon=\"volume-o\" />"],
+    "body": [
+      "<van-notice-bar text=\"通知内容\" left-icon=\"volume-o\" />"
+    ],
     "description": "Vant <van-notice-bar>"
   },
   "Display: van-panel": {
@@ -324,7 +344,9 @@
   },
   "Display: van-skeleton": {
     "prefix": "vansk",
-    "body": ["<van-skeleton title :row=\"3\" />"],
+    "body": [
+      "<van-skeleton title :row=\"3\" />"
+    ],
     "description": "Vant <van-skeleton>"
   },
   "Display: van-steps": {
@@ -362,10 +384,11 @@
   },
   "Display: van-tag": {
     "prefix": "vantag",
-    "body": ["<van-tag type=\"${2|primary,danger,success|}\">${1}</van-tag>"],
+    "body": [
+      "<van-tag type=\"${2|primary,danger,success|}\">${1}</van-tag>"
+    ],
     "description": "Vant <van-tag>"
   },
-
   "Navigation: van-grid": {
     "prefix": "vangrid",
     "body": [
@@ -448,20 +471,19 @@
     ],
     "description": "Vant <van-tree-select>"
   },
-
   "Business: van-address-edit": {
     "prefix": "vanade",
     "body": [
-     "<van-address-edit",
-        "\t :area-list=\"\"",
-        "\t show-postal",
-        "\t show-delete",
-        "\t show-set-default",
-        "\t show-search-result",
-        "\t :search-result=\"\"",
-        "\t @save=\"\"",
-        "\t @delete=\"\"",
-        "\t @change-detail=\"\"",
+      "<van-address-edit",
+      "\t :area-list=\"\"",
+      "\t show-postal",
+      "\t show-delete",
+      "\t show-set-default",
+      "\t show-search-result",
+      "\t :search-result=\"\"",
+      "\t @save=\"\"",
+      "\t @delete=\"\"",
+      "\t @change-detail=\"\"",
       "/>"
     ],
     "description": "Vant <van-address-edit>"
@@ -469,14 +491,14 @@
   "Business: van-address-list": {
     "prefix": "vanadl",
     "body": [
-     "<van-address-list",
-        "\t :area-list=\"\"",
-        "\t v-model=\"\"",
-        "\t :list=\"\"",
-        "\t :disabled-list=\"\"",
-        "\t disabled-text=\"\"",
-        "\t @add=\"\"",
-        "\t @edit=\"\"",
+      "<van-address-list",
+      "\t :area-list=\"\"",
+      "\t v-model=\"\"",
+      "\t :list=\"\"",
+      "\t :disabled-list=\"\"",
+      "\t disabled-text=\"\"",
+      "\t @add=\"\"",
+      "\t @edit=\"\"",
       "/>"
     ],
     "description": "Vant <van-address-list>"
@@ -491,12 +513,12 @@
   "Business: van-card": {
     "prefix": "vancard",
     "body": [
-     "<van-card",
-        "\t num=\"2\"",
-        "\t price=\"2.00\"",
-        "\t desc=\"描述信息\"",
-        "\t title=\"商品标题\"",
-        "\t thumb=\"https://img.yzcdn.cn/vant/t-thirt.jpg\"",
+      "<van-card",
+      "\t num=\"2\"",
+      "\t price=\"2.00\"",
+      "\t desc=\"描述信息\"",
+      "\t title=\"商品标题\"",
+      "\t thumb=\"https://img.yzcdn.cn/vant/t-thirt.jpg\"",
       "/>"
     ],
     "description": "Vant <van-card>"
@@ -504,33 +526,33 @@
   "Business: van-contact-card": {
     "prefix": "vanctc",
     "body": [
-     "<!-- 联系人卡片 -->",
-     "<van-contact-card",
-        "\t :type=\"\"",
-        "\t :name=\"\"",
-        "\t :tel=\"\"",
-        "\t @click=\"\"",
+      "<!-- 联系人卡片 -->",
+      "<van-contact-card",
+      "\t :type=\"\"",
+      "\t :name=\"\"",
+      "\t :tel=\"\"",
+      "\t @click=\"\"",
       "/>",
       "\t",
       "<!-- 联系人列表 -->",
       "<van-popup v-model=\"\" position=\"\">",
-        "\t<van-contact-list",
-          "\t   v-model=\"\"",
-          "\t   :list=\"\"",
-          "\t   @add=\"\"",
-          "\t   @edit=\"\"",
-          "\t   @select=\"\"",
-        "\t/>",
+      "\t<van-contact-list",
+      "\t   v-model=\"\"",
+      "\t   :list=\"\"",
+      "\t   @add=\"\"",
+      "\t   @edit=\"\"",
+      "\t   @select=\"\"",
+      "\t/>",
       "</van-popup>",
       "\t",
       "<!-- 联系人编辑 -->",
       "<van-popup v-model=\"\" position=\"\">",
-       "\t<van-contact-edit",
-          "\t   :contact-info=\"\"",
-          "\t   :is-edit=\"\"",
-          "\t   @save=\"\"",
-          "\t   @delete=\"\"",
-       "\t/>",
+      "\t<van-contact-edit",
+      "\t   :contact-info=\"\"",
+      "\t   :is-edit=\"\"",
+      "\t   @save=\"\"",
+      "\t   @delete=\"\"",
+      "\t/>",
       "</van-popup>"
     ],
     "description": "Vant <van-contact-card>"
@@ -540,21 +562,21 @@
     "body": [
       "<!-- 优惠券单元格 -->",
       "<van-coupon-cell",
-        "\t :coupons=\"\"",
-        "\t :chosen-coupon=\"\"",
-        "\t @click=\"\"",
+      "\t :coupons=\"\"",
+      "\t :chosen-coupon=\"\"",
+      "\t @click=\"\"",
       "/>",
       "\t",
       "<!-- 优惠券列表 -->",
       "<van-popup v-model=\"\" position=\"\">",
-        "\t<van-coupon-list",
-          "\t   v-model=\"\"",
-          "\t   :coupons=\"\"",
-          "\t   :chosen-coupon=\"\"",
-          "\t   :disabled-coupons=\"\"",
-          "\t   @change=\"\"",
-          "\t   @exchange=\"\"",
-        "\t/>",
+      "\t<van-coupon-list",
+      "\t   v-model=\"\"",
+      "\t   :coupons=\"\"",
+      "\t   :chosen-coupon=\"\"",
+      "\t   :disabled-coupons=\"\"",
+      "\t   @change=\"\"",
+      "\t   @exchange=\"\"",
+      "\t/>",
       "</van-popup>"
     ],
     "description": "Vant <van-coupon>"
@@ -563,10 +585,10 @@
     "prefix": "vangoods",
     "body": [
       "<van-goods-action>",
-        "\t <van-goods-action-icon icon=\"chat-o\" text=\"客服\"   @click=\"\"/>",
-        "\t <van-goods-action-icon icon=\"cart-o\" text=\"购物车\" @click=\"\"/>",
-        "\t <van-goods-action-icon-button type=\"warning\" text=\"加入购物车\" @click=\"\"/>",
-        "\t <van-goods-action-icon-button type=\"danger\"  text=\"立即购买\"   @click=\"\"/>",
+      "\t <van-goods-action-icon icon=\"chat-o\" text=\"客服\"   @click=\"\"/>",
+      "\t <van-goods-action-icon icon=\"cart-o\" text=\"购物车\" @click=\"\"/>",
+      "\t <van-goods-action-icon-button type=\"warning\" text=\"加入购物车\" @click=\"\"/>",
+      "\t <van-goods-action-icon-button type=\"danger\"  text=\"立即购买\"   @click=\"\"/>",
       "</van-goods-action>"
     ],
     "description": "Vant <van-goods-action>"
@@ -574,10 +596,10 @@
   "Business: van-submit-bar": {
     "prefix": "vansbar",
     "body": [
-     "<van-submit-bar",
-        "\t :price=\"\"",
-        "\t button-text=\"提交订单\"",
-        "\t @submit=\"\"",
+      "<van-submit-bar",
+      "\t :price=\"\"",
+      "\t button-text=\"提交订单\"",
+      "\t @submit=\"\"",
       "/>"
     ],
     "description": "Vant <van-submit-bar>"
@@ -585,16 +607,16 @@
   "Business: van-sku": {
     "prefix": "vansku",
     "body": [
-     "<van-sku",
-        "\t :sku=\"\"",
-        "\t :goods=\"\"",
-        "\t :goods-id=\"\"",
-        "\t :quota=\"\"",
-        "\t :quota-used=\"\"",
-        "\t :hide-stock=\"\"",
-        "\t :message-config=\"\"",
-        "\t @buy-clicked=\"\"",
-        "\t @add-cart=\"\"",
+      "<van-sku",
+      "\t :sku=\"\"",
+      "\t :goods=\"\"",
+      "\t :goods-id=\"\"",
+      "\t :quota=\"\"",
+      "\t :quota-used=\"\"",
+      "\t :hide-stock=\"\"",
+      "\t :message-config=\"\"",
+      "\t @buy-clicked=\"\"",
+      "\t @add-cart=\"\"",
       "/>"
     ],
     "description": "Vant <van-sku>"
