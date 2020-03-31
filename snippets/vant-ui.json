@@ -48,9 +48,65 @@
   "Basic: van-button": {
     "prefix": "vanb",
     "body": [
-      "<van-button type=\"${1|primary,info,warning,danger,default|}\">${2}</van-button>"
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" size=\"${2:nomal,large,small,mini}\">${2}</van-button>"
     ],
     "description": "Vant <van-button>按钮</van-button>"
+  },
+  "Basic: van-button-plain": {
+    "prefix": "vanbtnplain",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" plain>${2}</van-button>"
+    ],
+    "description": "Vant <van-button plain type=\"primary\">朴素按钮</van-button>"
+  },
+  "Basic: van-button-disabled": {
+    "prefix": "vanbtndisabled",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\">${2}</van-button>"
+    ],
+    "description": "Vant <van-button>禁止按钮</van-button>"
+  },
+  "Basic: van-button-loading": {
+    "prefix": "vanbtnloading",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" loading=\"${2}\" loading-text=\"加载中...\">${3}</van-button>"
+    ],
+    "description": "Vant <van-button loading=\"\">Loading按钮</van-button>"
+  },
+  "Basic: van-button-icon": {
+    "prefix": "vanbtnicon",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" icon=\"${2|lick-o,star-o,setting-o,lick-o,gem-o}\">${3}</van-button>"
+    ],
+    "description": "Vant <van-button icon=\"\">图标按钮</van-button>"
+  },
+  "Basic: van-button-block": {
+    "prefix": "vanbtnblock",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" block>${3}</van-button>"
+    ],
+    "description": "Vant <van-button block>块级按钮</van-button>"
+  },
+  "Basic: van-button-url": {
+    "prefix": "vanbtnurl",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" url=\"${2}\">${3}</van-button>"
+    ],
+    "description": "Vant <van-button url=\"\">链接按钮</van-button>"
+  },
+  "Basic: van-button-to": {
+    "prefix": "vanbtnto",
+    "body": [
+      "<van-button type=\"${1|primary,info,warning,danger,default|}\" to=\"${2}\">${3}</van-button>"
+    ],
+    "description": "Vant <van-button to=\"\">路由跳转按钮</van-button>"
+  },
+  "Basic: van-button-color": {
+    "prefix": "vanbtncolor",
+    "body": [
+      "<van-button color=\"${1}\">${2}</van-button>"
+    ],
+    "description": "Vant <van-button color=\"\">自定义颜色按钮</van-button>"
   },
   "Basic: van-cell": {
     "prefix": "vancell",
