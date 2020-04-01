@@ -163,7 +163,21 @@
     "body": [
       "<van-icon name=\"${1}\" />"
     ],
-    "description": "Vant <van-icon>"
+    "description": "Vant <van-icon>Icon图标</van-icon>"
+  },
+  "Basic: van-icon-dot": {
+    "prefix": "vanicondot",
+    "body": [
+      "<van-icon name=\"${1}\" badge=\"${2}\"/>"
+    ],
+    "description": "Vant <van-icon>带徽标图标</van-icon>"
+  },
+  "Basic: van-icon-color": {
+    "prefix": "vaniconcolor",
+    "body": [
+      "<van-icon name=\"${1}\" color=\"${2}\" />"
+    ],
+    "description": "Vant <van-icon>自定义颜色图标</van-icon>"
   },
   "Basic: van-image": {
     "prefix": "vanimg",
