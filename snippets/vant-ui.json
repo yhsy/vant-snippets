@@ -112,12 +112,51 @@
     "prefix": "vancell",
     "body": [
       "<van-cell-group>",
-      "\t<van-cell title=\"单元格\" value=\"内容\">${1}</van-cell>",
-      "\t<van-cell title=\"单元格\" value=\"内容\" label=\"描述信息\">${2}</van-cell>",
-      "</van-cell-group>",
-      "${5}"
+      "\t<van-cell title=\"${1}\" value=\"${2}\">${3}</van-cell>",
+      "\t<van-cell title=\"\" value=\"\" label=\"\"></van-cell>",
+      "</van-cell-group>"
     ],
-    "description": "Vant <van-cell>"
+    "description": "Vant <van-cell>单元格</van-vell>"
+  },
+  "Basic: van-cell-icon": {
+    "prefix": "vancellicon",
+    "body": [
+      "\t<van-cell title=\"单元格\" icon=\"${1:location-o}\">${2}</van-cell>"
+    ],
+    "description": "Vant <van-cell>图标单元格</van-vell>"
+  },
+  "Basic: van-cell-islink": {
+    "prefix": "vancelllink",
+    "body": [
+      "\t<van-cell title=\"单元格\" is-link to=\"${1}\">${2}</van-cell>"
+    ],
+    "description": "Vant <van-cell>导航单元格</van-vell>"
+  },
+  "Basic: van-cell-url": {
+    "prefix": "vancellurl",
+    "body": [
+      "\t<van-cell title=\"单元格\" is-link url=\"${1}\">${2}</van-cell>"
+    ],
+    "description": "Vant <van-cell>链接单元格</van-vell>"
+  },
+  "Basic: van-cell-group": {
+    "prefix": "vancellgroup",
+    "body": [
+      "<van-cell-group title=\"${1}\">",
+      "\t<van-cell title=\"\" value=\"\"></van-cell>",
+      "</van-cell-group>",
+      "<van-cell-group title=\"${2}\">",
+      "\t<van-cell title=\"\" value=\"\"></van-cell>",
+      "</van-cell-group>"
+    ],
+    "description": "Vant <van-cell>分组单元格</van-vell>"
+  },
+  "Basic: van-cell-center": {
+    "prefix": "vancellcenter",
+    "body": [
+      "\t<van-cell center title=\"${1}\" value=\"${2}\" label=\"${3}\">${4}</van-cell>"
+    ],
+    "description": "Vant <van-cell>垂直居中单元格</van-vell>"
   },
   "Basic: van-icon": {
     "prefix": "vanicon",
