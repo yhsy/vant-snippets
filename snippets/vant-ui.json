@@ -182,9 +182,38 @@
   "Basic: van-image": {
     "prefix": "vanimg",
     "body": [
-      "<van-image src=\"${1}\" type=\"${2|contain,cover,fill,none,sscale-down|}\"  />"
+      "<van-image src=\"${1}\" fit=\"${2|contain,cover,fill,none,sscale-down|}\"  />"
     ],
-    "description": "Vant <van-image>"
+    "description": "Vant <van-image>图片</van-image>"
+  },
+  "Basic: van-image-lazy": {
+    "prefix": "vanimagelazy",
+    "body": [
+      "<van-image src=\"${1}\" lazyload}\"  />"
+    ],
+    "description": "Vant <van-image>图片懒加载</van-image>"
+  },
+  "Basic: van-image-loading": {
+    "prefix": "vanimageloading",
+    "body": [
+      "<van-image src=\"${1}\"}\">",
+      "\t<template v-slot:loading>",
+      "\t<van-loading type=\"spinner\" size=\"${2}\"/>",
+      "\t</template>",
+      "\t</van-image>"
+    ],
+    "description": "Vant <van-image>图片加载中</van-image>"
+  },
+  "Basic: van-image-error": {
+    "prefix": "vanimageerror",
+    "body": [
+      "<van-image src=\"${1}\"}\">",
+      "\t<template v-slot:error>",
+      "\t加载失败",
+      "\t</template>",
+      "\t</van-image>"
+    ],
+    "description": "Vant <van-image>图片加载失败</van-image>"
   },
   "Basic: van-popup": {
     "prefix": "vanpopup",
