@@ -218,9 +218,16 @@
   "Basic: van-popup": {
     "prefix": "vanpopup",
     "body": [
-      "<van-popup v-model=\"${1}\"></van-popup>"
+      "<van-popup v-model=\"${1}\">${2}</van-popup>"
     ],
-    "description": "Vant <van-popup>"
+    "description": "Vant <van-popup>弹出层</van-popup>"
+  },
+  "Basic: van-popup-position": {
+    "prefix": "vanpopupposition",
+    "body": [
+      "<van-popup v-model=\"${1}\" position=\"${2|top,bottom,left,right}\">${3}</van-popup>"
+    ],
+    "description": "Vant <van-popup position=\"top\">可指定位置弹出层</van-popup>"
   },
   "Form: van-field": {
     "prefix": "vanfd",
