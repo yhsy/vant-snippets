@@ -229,6 +229,29 @@
     ],
     "description": "Vant <van-popup position=\"top\">可指定位置弹出层</van-popup>"
   },
+  "Basic: van-style-ellipsis": {
+    "prefix": "vanellipsis",
+    "body": [
+      "<div class=\"${1|van-ellipsis,van-multi-ellipsis--l2,van-multi-ellipsis--l3}\">${2}</div>"
+    ],
+    "description": "Vant <div class=\"van-ellipsis\">文字省略</div>"
+  },
+  "Basic: van-style-hairline": {
+    "prefix": "vanhairline",
+    "body": [
+      "<div class=\"${1|van-hairline--top,van-hairline--bottom,van-hairline--left,van-hairline--right,van-hairline--top-bottom,van-hairline--surround,}\">${2}</div>"
+    ],
+    "description": "Vant <div class=\"van-hairline--top\">1px边框</div>"
+  },
+  "Basic: van-style-transition": {
+    "prefix": "vantransition",
+    "body": [
+      "<transition name=\"{1|van-fade,van-slide-up,van-slide-down,van-slide-left,van-slide-right}\">",
+      "\t<div v-show=\"visible\">${2}</div>",
+      "\t</transition>"
+    ],
+    "description": "Vant <transition>动画</transition>"
+  },
   "Form: van-field": {
     "prefix": "vanfd",
     "body": [
