@@ -255,9 +255,44 @@
   "Form: van-field": {
     "prefix": "vanfd",
     "body": [
-      "<van-field type=\"${1|text,password,textarea,number,tel|}\" v-model=\"${2}\" placeholder=\"\" />"
+      "<van-field type=\"${1|text,password,textarea,number,tel,digit,|}\" placeholder=\"${2}\"  v-model=\"${3}\"/>"
     ],
-    "description": "Vant <van-field>"
+    "description": "Vant <van-field>输入框</van-field>"
+  },
+  "Form: van-field-disabled": {
+    "prefix": "vanfielddisabled",
+    "body": [
+      "<van-field label=\"${1}\" value=\"${2}\" disabled/>"
+    ],
+    "description": "Vant <van-field disabled>禁用输入框</van-field>"
+  },
+  "Form: van-field-readonly": {
+    "prefix": "vanfieldreadonly",
+    "body": [
+      "<van-field label=\"${1}\" value=\"${2}\" readonly/>"
+    ],
+    "description": "Vant <van-field readonly>只读输入框</van-field>"
+  },
+  "Form: van-field-icon-left": {
+    "prefix": "vanfieldiconleft",
+    "body": [
+      "<van-field left-icon=\"${1}\" label=\"${2}\" placeholder=\"${3}\" v-model=\"${3}\"/>"
+    ],
+    "description": "Vant <van-field left-icon=\"\">左侧图标输入框</van-field>"
+  },
+  "Form: van-field-icon-right": {
+    "prefix": "vanfieldiconright",
+    "body": [
+      "<van-field right-icon=\"${1}\" label=\"${2}\" placeholder=\"${3}\" v-model=\"${3}\"/>"
+    ],
+    "description": "Vant <van-field right-icon=\"\">右侧图标输入框</van-field>"
+  },
+  "Form: van-field-icon-clear": {
+    "prefix": "vanfieldiconclear",
+    "body": [
+      "<van-field label=\"${1}\" placeholder=\"${2}\" v-model=\"${3}\" clearable/>"
+    ],
+    "description": "Vant <van-field clearable>清除图标输入框</van-field>"
   },
   "Form: van-radio": {
     "prefix": "vanrd",
