@@ -292,7 +292,7 @@
     "body": [
       "<van-field label=\"${1}\" placeholder=\"${2}\" v-model=\"${3}\" clearable/>"
     ],
-    "description": "Vant <van-field clearable>清除图标输入框</van-field>"
+    "description": "Vant <van-field clearable>清除图标输入框11</van-field>"
   },
   "Form: van-radio": {
     "prefix": "vanrd",
