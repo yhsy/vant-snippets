@@ -259,6 +259,13 @@
     ],
     "description": "Vant <van-field>输入框</van-field>"
   },
+  "Form: van-field-align": {
+    "prefix": "vanfieldalign",
+    "body": [
+      "<van-field type=\"${1|text,password,textarea,number,tel,digit,|}\" placeholder=\"${2}\"  v-model=\"${3}\" input-align=\"${4|center,right}\"/>"
+    ],
+    "description": "Vant <van-field input-align=\"center|right\">输入框内容对齐</van-field>"
+  },
   "Form: van-field-disabled": {
     "prefix": "vanfielddisabled",
     "body": [
@@ -303,7 +310,21 @@
       "\t </template>",
       "\t</van-field>"
     ],
-    "description": "Vant <van-field clearable>右侧按钮输入框</van-field>"
+    "description": "Vant <van-field>右侧按钮输入框</van-field>"
+  },
+  "Form: van-field-textarea": {
+    "prefix": "vanfieldtextarea",
+    "body": [
+      "<van-field autosize type=\"textarea\" row=\"1\" label=\"${1}\" placeholder=\"${2}\" v-model=\"${3}\"/>"
+    ],
+    "description": "Vant <van-field autosize type=\"textarea\" row=\"1\">多行文本输入框(高度自适应)</van-field>"
+  },
+  "Form: van-field-textarea-maxlength": {
+    "prefix": "vanfieldtextareamaxlength",
+    "body": [
+      "<van-field autosize show-word-limit maxlength=\"50\" type=\"textarea\" row=\"2\" label=\"${1}\" placeholder=\"${2}\" v-model=\"${3}\"/>"
+    ],
+    "description": "Vant <van-field autosize show-word-limit maxlength=\"50\" type=\"textarea\" row=\"2\">多行文本输入框(显示字数统计)</van-field>"
   },
   "Form: van-radio": {
     "prefix": "vanrd",
