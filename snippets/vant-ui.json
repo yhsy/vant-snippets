@@ -330,12 +330,31 @@
     "prefix": "vanrd",
     "body": [
       "<van-radio-group v-model=\"\">",
-      "\t<van-radio name=\"1\">${1}</van-radio>",
-      "\t<van-radio name=\"2\">${2}</van-radio>",
-      "</van-radio-group>",
-      "${5}"
+      "\t <van-radio name=\"1\">${1}</van-radio>",
+      "\t <van-radio name=\"2\">${2}</van-radio>",
+      "</van-radio-group>"
     ],
-    "description": "Vant <van-radio>"
+    "description": "Vant <van-radio>单选框</van-radio>"
+  },
+  "Form: van-radio-direction": {
+    "prefix": "vanradiodirection",
+    "body": [
+      "<van-radio-group v-model=\"\" direction=\"horizontal\">",
+      "\t <van-radio name=\"1\">${1}</van-radio>",
+      "\t <van-radio name=\"2\">${2}</van-radio>",
+      "</van-radio-group>"
+    ],
+    "description": "Vant <van-radio direction=\"horizontal\">水平排列单选框</van-radio>"
+  },
+  "Form: van-radio-disabled": {
+    "prefix": "vanradiodisabled",
+    "body": [
+      "<van-radio-group v-model=\"\" disabled>",
+      "\t <van-radio name=\"1\">${1}</van-radio>",
+      "\t <van-radio name=\"2\">${2}</van-radio>",
+      "</van-radio-group>"
+    ],
+    "description": "Vant <van-radio disabled>禁用单选框</van-radio>"
   },
   "Form: van-checkbox": {
     "prefix": "vanck",
