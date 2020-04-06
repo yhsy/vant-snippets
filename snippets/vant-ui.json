@@ -356,6 +356,74 @@
     ],
     "description": "Vant <van-radio disabled>禁用单选框</van-radio>"
   },
+  "Form: van-radio-shape": {
+    "prefix": "vanradioshape",
+    "body": [
+      "<van-radio-group v-model=\"\">",
+      "\t <van-radio name=\"1\" shape=\"square\">${1}</van-radio>",
+      "\t <van-radio name=\"2\" shape=\"square\">${2}</van-radio>",
+      "</van-radio-group>"
+    ],
+    "description": "Vant <van-radio shape=\"square\">自定义形状单选框</van-radio>"
+  },
+  "Form: van-radio-color": {
+    "prefix": "vanradiocolor",
+    "body": [
+      "<van-radio-group v-model=\"\">",
+      "\t <van-radio name=\"1\" checked-color=\"#07c160\">${1}</van-radio>",
+      "\t <van-radio name=\"2\" checked-color=\"#07c160\">${2}</van-radio>",
+      "</van-radio-group>"
+    ],
+    "description": "Vant <van-radio checked-color=\"#07c160\">自定义颜色单选框</van-radio>"
+  },
+  "Form: van-radio-size": {
+    "prefix": "vanradiosize",
+    "body": [
+      "<van-radio-group v-model=\"\">",
+      "\t <van-radio name=\"1\" icon-size=\"24px\">${1}</van-radio>",
+      "\t <van-radio name=\"2\" icon-size=\"24px\">${2}</van-radio>",
+      "</van-radio-group>"
+    ],
+    "description": "Vant <van-radio icon-size=\"24px\">自定义大小单选框</van-radio>"
+  },
+  "Form: van-radio-icon": {
+    "prefix": "vanradioicon",
+    "body": [
+      "<van-radio-group v-model=\"\">",
+      "\t <van-radio name=\"1\">",
+      "\t <template #icon=\"props\">",
+      "\t <img class=\"img-icon\" :src=\"props.checked ? 'https://img.yzcdn.cn/vant/user-active.png' : 'https://img.yzcdn.cn/vant/user-inactive.png' \"/>",
+      "\t </template>",
+      "\t</van-radio>",
+      "\t <van-radio name=\"2\">",
+      "\t <template #icon=\"props\">",
+      "\t <img class=\"img-icon\" :src=\"props.checked ? 'https://img.yzcdn.cn/vant/user-active.png' : 'https://img.yzcdn.cn/vant/user-inactive.png' \"/>",
+      "\t </template>",
+      "\t</van-radio>",
+      "</van-radio-group>"
+    ],
+    "description": "Vant <van-radio #icon=\"props\">自定义图标单选框</van-radio>"
+  },
+  "Form: van-radio-cell": {
+    "prefix": "vanradiocell",
+    "body": [
+      "<van-radio-group v-model=\"\">",
+      "\t <van-cell-group>",
+      "\t <van-cell title=\"单选框 1\" clickable>",
+      "\t <template #right-icon>",
+      "\t <van-radio name=\"1\" />",
+      "\t </template>",
+      "\t </van-cell>",
+      "\t <van-cell title=\"单选框 2\" clickable>",
+      "\t <template #right-icon>",
+      "\t <van-radio name=\"2\" />",
+      "\t </template>",
+      "\t </van-cell>",
+      "\t </van-cell-group>",
+      "\t </van-radio-group>"
+    ],
+    "description": "Vant <van-radio>单元格单选框</van-radio>"
+  },
   "Form: van-checkbox": {
     "prefix": "vanck",
     "body": [
