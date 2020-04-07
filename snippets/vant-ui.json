@@ -474,7 +474,17 @@
       "\t <van-checkbox name=\"\">${3}</van-checkbox>",
       "\t </van-checkbox-group>"
     ],
-    "description": "Vant <van-checkbox-group direction=\"horizontal\">复选框组</van-checkbox-group>"
+    "description": "Vant <van-checkbox-group direction=\"horizontal\">水平排列复选框</van-checkbox-group>"
+  },
+  "Form: van-checkbox-max": {
+    "prefix": "vancheckboxmax",
+    "body": [
+      "<van-checkbox-group :max=\"${1}\" v-model=\"${2}\">",
+      "\t <van-checkbox name=\"\">${3}</van-checkbox>",
+      "\t <van-checkbox name=\"\">${4}</van-checkbox>",
+      "\t </van-checkbox-group>"
+    ],
+    "description": "Vant <van-checkbox-group :max=\"\">限制最大可选数复选框</van-checkbox-group>"
   },
   "Form: van-rate": {
     "prefix": "vanrate",
