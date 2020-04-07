@@ -427,9 +427,54 @@
   "Form: van-checkbox": {
     "prefix": "vanck",
     "body": [
-      "<van-checkbox  v-model=\"${1}\">复选框</van-checkbox>"
+      "<van-checkbox  v-model=\"${1}\">${2}</van-checkbox>"
     ],
-    "description": "Vant <van-checkbox>"
+    "description": "Vant <van-checkbox>复选框</van-checkbox>"
+  },
+  "Form: van-checkbox-disabled": {
+    "prefix": "vancheckboxdisabled",
+    "body": [
+      "<van-checkbox  v-model=\"${1}\" disabled>${2}</van-checkbox>"
+    ],
+    "description": "Vant <van-checkbox disabled>禁用复选框</van-checkbox>"
+  },
+  "Form: van-checkbox-color": {
+    "prefix": "vancheckbox-color",
+    "body": [
+      "<van-checkbox  v-model=\"${1}\" checked-color=\"${2}\">${3}</van-checkbox>"
+    ],
+    "description": "Vant <van-checkbox checked-color=\"#07c160\">自定义颜色复选框</van-checkbox>"
+  },
+  "Form: van-checkbox-icon": {
+    "prefix": "vancheckboxicon",
+    "body": [
+      "<van-checkbox  v-model=\"${1}\">${2}",
+      "\t <template #icon=\"props\">",
+      "\t <img class=\"img-icon\" :src=\" 'https://img.yzcdn.cn/vant/user-inactive.png' ? 'https://img.yzcdn.cn/vant/user-active.png' : 'https://img.yzcdn.cn/vant/user-inactive.png' \"/>",
+      "\t </template>",
+      "\t </van-checkbox>"
+    ],
+    "description": "Vant <van-checkbox>图标复选框</van-checkbox>"
+  },
+  "Form: van-checkbox-group": {
+    "prefix": "vancheckboxgroup",
+    "body": [
+      "<van-checkbox-group  v-model=\"${1}\">",
+      "\t <van-checkbox name=\"\">${2}</van-checkbox>",
+      "\t <van-checkbox name=\"\">${3}</van-checkbox>",
+      "\t </van-checkbox-group>"
+    ],
+    "description": "Vant <van-checkbox-group>复选框组</van-checkbox-group>"
+  },
+  "Form: van-checkbox-direction": {
+    "prefix": "vancheckboxdirection",
+    "body": [
+      "<van-checkbox-group direction=\"horizontal\"  v-model=\"${1}\" >",
+      "\t <van-checkbox name=\"\">${2}</van-checkbox>",
+      "\t <van-checkbox name=\"\">${3}</van-checkbox>",
+      "\t </van-checkbox-group>"
+    ],
+    "description": "Vant <van-checkbox-group direction=\"horizontal\">复选框组</van-checkbox-group>"
   },
   "Form: van-rate": {
     "prefix": "vanrate",
