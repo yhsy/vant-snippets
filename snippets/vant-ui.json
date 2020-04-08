@@ -491,7 +491,21 @@
     "body": [
       "<van-rate  v-model=\"${1}\"/>"
     ],
-    "description": "Vant <van-rate>"
+    "description": "Vant <van-rate>评分<van-rate>"
+  },
+  "Form: van-rate-icon": {
+    "prefix": "vanrateicon",
+    "body": [
+      "<van-rate  v-model=\"${1}\" icon=\"${2}\"  void-icon=\"${3}\"/>"
+    ],
+    "description": "Vant <van-rate icon=\"like\"  void-icon=\"like-o\">自定义图标评分<van-rate>"
+  },
+  "Form: van-rate-color": {
+    "prefix": "vanratecolor",
+    "body": [
+      "<van-rate  v-model=\"${1}\" color=\"${2}\" void-color=\"${3}\" void-icon=\"start\"/>"
+    ],
+    "description": "Vant <van-rate color=\"#ee0a24\">自定义样式评分<van-rate>"
   },
   "Form: van-search": {
     "prefix": "vansearch",
