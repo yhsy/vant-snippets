@@ -507,6 +507,20 @@
     ],
     "description": "Vant <van-rate color=\"#ee0a24\">自定义样式评分<van-rate>"
   },
+  "Form: van-rate-disabled": {
+    "prefix": "vanratedisabled",
+    "body": [
+      "<van-rate  v-model=\"${1}\" disabled/>"
+    ],
+    "description": "Vant <van-rate disabled>评分禁用状态<van-rate>"
+  },
+  "Form: van-rate-readonly": {
+    "prefix": "vanratereadonly",
+    "body": [
+      "<van-rate  v-model=\"${1}\" readonly/>"
+    ],
+    "description": "Vant <van-rate readonly>评分只读状态<van-rate>"
+  },
   "Form: van-search": {
     "prefix": "vansearch",
     "body": [
