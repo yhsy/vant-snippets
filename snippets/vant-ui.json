@@ -526,7 +526,14 @@
     "body": [
       "<van-search  v-model=\"${1}\" placeholder=\"请输入搜索关键词\" />"
     ],
-    "description": "Vant <van-search>"
+    "description": "Vant <van-search>搜索</van-search>"
+  },
+  "Form: van-search-align": {
+    "prefix": "vansearchalign",
+    "body": [
+      "<van-search input-align=\"${1|center,right}\" v-model=\"${2}\"  placeholder=\"请输入搜索关键词\" />"
+    ],
+    "description": "Vant <van-search input-align=\"center\">搜索框内容对齐</van-search>"
   },
   "Form: van-slider": {
     "prefix": "vanslider",
