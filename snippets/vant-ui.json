@@ -535,6 +535,20 @@
     ],
     "description": "Vant <van-search input-align=\"center\">搜索框内容对齐</van-search>"
   },
+  "Form: van-search-disabled": {
+    "prefix": "vansearchdisabled",
+    "body": [
+      "<van-search v-model=\"${1}\"  placeholder=\"请输入搜索关键词\" />"
+    ],
+    "description": "Vant <van-search disabled>禁用搜索框</van-search>"
+  },
+  "Form: van-search-background": {
+    "prefix": "vansearchbackground",
+    "body": [
+      "<van-search v-model=\"${1}\" shape=\"round\" background=\"#4fc08d\" placeholder=\"请输入搜索关键词\" />"
+    ],
+    "description": "Vant <van-search background=\"#4fc08d\">自定义背景搜索框</van-search>"
+  },
   "Form: van-slider": {
     "prefix": "vanslider",
     "body": [
