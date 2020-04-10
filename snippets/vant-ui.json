@@ -557,11 +557,25 @@
     "description": "Vant <van-slider>滑块</van-slider>"
   },
   "Form: van-slider-step": {
-    "prefix": "vanslider",
+    "prefix": "vansliderstep",
     "body": [
       "<van-slider v-model=\"${1}\"  :step=\"${2}\" @change=\"\"/>"
     ],
     "description": "Vant <van-slider :step=\"10\">指定步长滑块</van-slider>"
+  },
+  "Form: van-slider-color": {
+    "prefix": "vanslidercolor",
+    "body": [
+      "<van-slider v-model=\"${1}\" bar-height=\"${2}\"  active-color=\"${3}\" @change=\"\" />"
+    ],
+    "description": "Vant <van-slider bar-height=\"4\"  active-color=\"#ee0a24\">自定义样式滑块</van-slider>"
+  },
+  "Form: van-slider-vertical": {
+    "prefix": "vanslidervertical",
+    "body": [
+      "<van-slider v-model=\"${1}\" vertical/>"
+    ],
+    "description": "Vant <van-slider vertical>垂直滑块</van-slider>"
   },
   "Form: van-stepper": {
     "prefix": "vanstepper",
