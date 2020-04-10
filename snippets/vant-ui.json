@@ -554,7 +554,14 @@
     "body": [
       "<van-slider v-model=\"${1}\" @change=\"\" />"
     ],
-    "description": "Vant <van-slider>"
+    "description": "Vant <van-slider>滑块</van-slider>"
+  },
+  "Form: van-slider-step": {
+    "prefix": "vanslider",
+    "body": [
+      "<van-slider v-model=\"${1}\"  :step=\"${2}\" @change=\"\"/>"
+    ],
+    "description": "Vant <van-slider :step=\"10\">指定步长滑块</van-slider>"
   },
   "Form: van-stepper": {
     "prefix": "vanstepper",
