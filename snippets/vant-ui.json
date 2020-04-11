@@ -580,9 +580,16 @@
   "Form: van-stepper": {
     "prefix": "vanstepper",
     "body": [
-      "<van-stepper v-model=\"${1}\" />"
+      "<van-stepper v-model=\"${1}\" step=\"${2}\" />"
     ],
-    "description": "Vant <van-stepper>"
+    "description": "Vant <van-stepper step=\"2\">步进器</van-stepper>"
+  },
+  "Form: van-stepper-max": {
+    "prefix": "vansteppermax",
+    "body": [
+      "<van-stepper v-model=\"${1}\" min=\"${2}\" max=\"${8}\" />"
+    ],
+    "description": "Vant <van-stepper min=\"2\" max=\"8\">限制范围步进器</van-stepper>"
   },
   "Form: van-switch": {
     "prefix": "vanswitch",
