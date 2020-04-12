@@ -591,6 +591,20 @@
     ],
     "description": "Vant <van-stepper min=\"2\" max=\"8\">限制范围步进器</van-stepper>"
   },
+  "Form: van-stepper-integer": {
+    "prefix": "vanstepperinteger",
+    "body": [
+      "<van-stepper v-model=\"${1}\" integer/>"
+    ],
+    "description": "Vant <van-stepper integer>整数步进器</van-stepper>"
+  },
+  "Form: van-stepper-disabled": {
+    "prefix": "vanstepperdisabled",
+    "body": [
+      "<van-stepper v-model=\"${1}\" disabled/>"
+    ],
+    "description": "Vant <van-stepper disabled>禁用步进器</van-stepper>"
+  },
   "Form: van-switch": {
     "prefix": "vanswitch",
     "body": [
