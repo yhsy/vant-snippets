@@ -598,6 +598,13 @@
     ],
     "description": "Vant <van-stepper integer>整数步进器</van-stepper>"
   },
+  "Form: van-stepper-decimal": {
+    "prefix": "vanstepperdecimal",
+    "body": [
+      "<van-stepper v-model=\"${1}\" step=\"${2}\" :decimal-length=\"${3}\" />"
+    ],
+    "description": "Vant <van-stepper :decimal-length=\"1\">固定小数位数步进器</van-stepper>"
+  },
   "Form: van-stepper-disabled": {
     "prefix": "vanstepperdisabled",
     "body": [
