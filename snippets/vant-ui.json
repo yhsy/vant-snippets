@@ -633,6 +633,24 @@
     ],
     "description": "Vant <van-switch loading>加载开关</van-switch>"
   },
+  "Form: van-switch-color": {
+    "prefix": "vanswitchcolor",
+    "body": [
+      "<van-switch v-model=\"${1}\" active-color=\"${2}\" inactive-color=\"${3}\" />"
+    ],
+    "description": "Vant <van-switch active-color=\"#07c160\" inactive-color=\"#07c160\">自定义颜色开关</van-switch>"
+  },
+  "Form: van-switch-cell": {
+    "prefix": "vanswitchcell",
+    "body": [
+      "<van-cell center title=\"${1}\">",
+      "\t <template #right-icon>",
+      "\t <van-switch v-model=\"${2}\" size=\"${3}\" />",
+      "\t </template>",
+      "\t </van-cell>"
+    ],
+    "description": "Vant <van-switch>单元格开关</van-switch>"
+  },
   "Form: van-picker": {
     "prefix": "vanpk",
     "body": [
