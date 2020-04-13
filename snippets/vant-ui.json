@@ -617,7 +617,21 @@
     "body": [
       "<van-switch v-model=\"${1}\" />"
     ],
-    "description": "Vant <van-switch>"
+    "description": "Vant <van-switch>开关</van-switch>"
+  },
+  "Form: van-switch-disabled": {
+    "prefix": "vanswitchdisabled",
+    "body": [
+      "<van-switch v-model=\"${1}\" disabled/>"
+    ],
+    "description": "Vant <van-switch>禁用开关</van-switch>"
+  },
+  "Form: van-switch-loading": {
+    "prefix": "vanswitchloading",
+    "body": [
+      "<van-switch v-model=\"${1}\" loading=\"${2}\" />"
+    ],
+    "description": "Vant <van-switch loading>加载开关</van-switch>"
   },
   "Form: van-picker": {
     "prefix": "vanpk",
