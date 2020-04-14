@@ -654,9 +654,9 @@
   "Form: van-picker": {
     "prefix": "vanpk",
     "body": [
-      "<van-picker  :columns=\"${1}\" @change=\"\" />"
+      "<van-picker :columns=\"${1}\" @change=\"${2}\" />"
     ],
-    "description": "Vant <van-picker>"
+    "description": "Vant <van-picker>选择器<van-picker>"
   },
   "Form: van-datetime-picker": {
     "prefix": "vandate",
