@@ -675,9 +675,9 @@
   "Form: van-uploader": {
     "prefix": "vanup",
     "body": [
-      "<van-uploader  :after-read=\"\" />"
+      "<van-uploader  :after-read=\"${1}\" />"
     ],
-    "description": "Vant <van-uploader>"
+    "description": "Vant <van-uploader :after-read=\"${1}\">文件上传</van-uploader>"
   },
   "Action: van-dialog": {
     "prefix": "vandg",
