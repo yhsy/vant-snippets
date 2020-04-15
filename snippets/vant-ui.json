@@ -668,9 +668,9 @@
   "Form: van-datetime-picker": {
     "prefix": "vandate",
     "body": [
-      "<van-datetime-picker  type=\"${1|datetime,year-month|}\" v-model=\"${2}\" />"
+      "<van-datetime-picker  type=\"${1|datetime,date,time,year-month|}\" v-model=\"${2}\" />"
     ],
-    "description": "Vant <van-datetime-picker>"
+    "description": "Vant <van-datetime-picker>日期时间选择</van-datetime-picker>"
   },
   "Form: van-uploader": {
     "prefix": "vanup",
