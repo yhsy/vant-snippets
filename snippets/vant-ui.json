@@ -672,6 +672,14 @@
     ],
     "description": "Vant <van-datetime-picker>日期时间选择</van-datetime-picker>"
   },
+  "Form: van-calendar": {
+    "prefix": "vancld",
+    "body": [
+      "<van-cell title=\"选择单个日期\" :value=\"${1}\" @click=\"${2}\" />",
+      "\t <van-calendar v-model=\"${3}\" @confirm=\"${4}\" />"
+    ],
+    "description": "Vant <van-calendar>日历</van-calendar>"
+  },
   "Form: van-uploader": {
     "prefix": "vanup",
     "body": [
