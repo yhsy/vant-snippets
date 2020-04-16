@@ -680,6 +680,14 @@
     ],
     "description": "Vant <van-calendar>日历</van-calendar>"
   },
+  "Form: van-calendar-range": {
+    "prefix": "vancalendarrange",
+    "body": [
+      "<van-cell title=\"选择日期区间\" :value=\"${1}\" @click=\"${2}\" />",
+      "\t <van-calendar type=\"range\" v-model=\"${3}\"  @confirm=\"${4}\" />"
+    ],
+    "description": "Vant <van-calendar type=\"range\">区间日历</van-calendar>"
+  },
   "Form: van-uploader": {
     "prefix": "vanup",
     "body": [
