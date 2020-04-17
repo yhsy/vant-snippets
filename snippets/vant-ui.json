@@ -702,6 +702,13 @@
     ],
     "description": "Vant <van-dialog>弹出框</van-dialog>"
   },
+  "Action: van-dialog-message": {
+    "prefix": "vandialogmessage",
+    "body": [
+      "Dialog({message:'${1}'})"
+    ],
+    "description": "Vant 函数调用消息弹框 Dialog({message:'${1}'})"
+  },
   "Action: Dialog Alert": {
     "prefix": "vanal",
     "body": [
