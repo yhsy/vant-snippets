@@ -698,9 +698,9 @@
   "Action: van-dialog": {
     "prefix": "vandg",
     "body": [
-      "<van-dialog v-model=\"${1}\" title=\"\" ></van-dialog>"
+      "<van-dialog v-model=\"${1}\" title=\"${2}\" ></van-dialog>"
     ],
-    "description": "Vant <van-dialog>"
+    "description": "Vant <van-dialog>弹出框</van-dialog>"
   },
   "Action: Dialog Alert": {
     "prefix": "vanal",
