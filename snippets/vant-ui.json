@@ -742,6 +742,16 @@
     ],
     "description": "Vant Notify(\"消息通知\")"
   },
+  "Action: Notify-type": {
+    "prefix": "vannotifytype",
+    "body": [
+      "Notify({",
+      "\t type: ${\"${1|primary,success,danger,warnning}\"},",
+      "\t message: \"${2}\"",
+      "\t })"
+    ],
+    "description": "Vant Notify({type:\"消息通知-自定义通知类型\"})"
+  },
   "Action: Toast": {
     "prefix": "vants",
     "body": [
