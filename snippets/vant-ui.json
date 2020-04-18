@@ -738,13 +738,9 @@
   "Action: Notify": {
     "prefix": "vannt",
     "body": [
-      "Notify({",
-      "\t title: '标题',",
-      "\t duration: 2000,",
-      "\t background: '#1989fa'",
-      "})"
+      "Notify(\"${1}\")"
     ],
-    "description": "Vant Notify"
+    "description": "Vant Notify(\"消息通知\")"
   },
   "Action: Toast": {
     "prefix": "vants",
