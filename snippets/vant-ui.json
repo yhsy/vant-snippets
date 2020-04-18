@@ -707,33 +707,33 @@
     "body": [
       "Dialog({message:'${1}'})"
     ],
-    "description": "Vant 函数调用消息弹框 Dialog({message:'${1}'})"
+    "description": "Vant Dialog({message:\"基础消息弹框\"})"
   },
   "Action: Dialog Alert": {
     "prefix": "vanal",
     "body": [
       "Dialog.alert({",
-      "\t title: '标题',",
-      "\t message: '弹出的内容',",
-      "\t}).then(() => {",
-      "\t ${1}",
+      "\t title: \"${1}\",",
+      "\t message: \"${2}\",",
+      "\t }).then(() => {",
+      "\t   ${3}",
       "\t})"
     ],
-    "description": "Vant alert"
+    "description": "Vant Dialog.alert('消息提示弹框')"
   },
   "Action: Dialog Confirm": {
     "prefix": "vancf",
     "body": [
       "Dialog.confirm({",
-      "\t title: '标题',",
-      "\t message: '弹出的内容',",
+      "\t title: \"${1}\",",
+      "\t message: \"${2}\",",
       "\t}).then(() => {",
-      "\t ${1}",
+      "\t ${3}",
       "\t}).catch(() => {",
-      "\t ${2}",
+      "\t ${4}",
       "\t})"
     ],
-    "description": "Vant confirm"
+    "description": "Vant Dialog.confirm('确认弹框')"
   },
   "Action: Notify": {
     "prefix": "vannt",
