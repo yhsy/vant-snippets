@@ -755,9 +755,9 @@
   "Action: Toast": {
     "prefix": "vants",
     "body": [
-      "Toast('提示内容')"
+      "Toast(\"${1}\")"
     ],
-    "description": "Vant Toast"
+    "description": "Vant Toast('轻提示')"
   },
   "Action: van-loading": {
     "prefix": "vanld",
