@@ -769,6 +769,17 @@
     ],
     "description": "Vant Toast.loading({message: '加载提示'})"
   },
+  "Action: Toast-loading-icon": {
+    "prefix": "vantoastloadingicon",
+    "body": [
+      "Toast.loading({",
+      "\t message:'加载中...',",
+      "\t forbidClick:true,",
+      "\t loadingType:'spinner',",
+      "})"
+    ],
+    "description": "Vant Toast.loading({message: '自定义加载图标'})"
+  },
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
