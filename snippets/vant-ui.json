@@ -759,6 +759,16 @@
     ],
     "description": "Vant Toast('轻提示')"
   },
+  "Action: Toast-loading": {
+    "prefix": "vantoastloading",
+    "body": [
+      "Toast.loading({",
+      "\t message:'加载中...',",
+      "\t forbidClick:true,",
+      "})"
+    ],
+    "description": "Vant Toast.loading({message: '加载提示'})"
+  },
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
