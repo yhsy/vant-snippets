@@ -780,6 +780,13 @@
     ],
     "description": "Vant Toast.loading({message: '自定义加载图标'})"
   },
+  "Action: Toast-success": {
+    "prefix": "vantoastsuccess",
+    "body": [
+      "Toast.success('${1}')"
+    ],
+    "description": "Vant Toast.success('成功提示')"
+  },
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
