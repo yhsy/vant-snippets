@@ -787,6 +787,13 @@
     ],
     "description": "Vant Toast.success('成功提示')"
   },
+  "Action: Toast-fail": {
+    "prefix": "vantoastfail",
+    "body": [
+      "Toast.fail('${1}')"
+    ],
+    "description": "Vant Toast.fail('错误提示')"
+  },
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
