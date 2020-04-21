@@ -794,6 +794,13 @@
     ],
     "description": "Vant Toast.fail('错误提示')"
   },
+  "Action: van-loading": {
+    "prefix": "vanld",
+    "body": [
+      "<van-loading type=\"${1|circular,spinner|}\" />"
+    ],
+    "description": "Vant <van-loading>Loading加载</van-loading>"
+  },
   "Action: van-loading-color": {
     "prefix": "vanloadingcolor",
     "body": [
@@ -801,12 +808,12 @@
     ],
     "description": "Vant <van-loading color=\"${2}\">自定义颜色Loading</van-loading>"
   },
-  "Action: van-loading": {
-    "prefix": "vanld",
+  "Action: van-loading-vertical": {
+    "prefix": "vanloadingvertical",
     "body": [
-      "<van-loading type=\"${1|circular,spinner|}\" />"
+      "<van-loading size=\"${1}\" vertical>加载中...</van-loading>"
     ],
-    "description": "Vant <van-loading>Loading加载</van-loading>"
+    "description": "Vant <van-loading vertical>垂直排列Loading</van-loading>"
   },
   "Action: van-overlay": {
     "prefix": "vanol",
