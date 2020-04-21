@@ -794,6 +794,13 @@
     ],
     "description": "Vant Toast.fail('错误提示')"
   },
+  "Action: van-loading-color": {
+    "prefix": "vanloadingcolor",
+    "body": [
+      "<van-loading type=\"${1|circular,spinner|}\" color=\"${2}\" />"
+    ],
+    "description": "Vant <van-loading color=\"${2}\">自定义颜色Loading</van-loading>"
+  },
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
