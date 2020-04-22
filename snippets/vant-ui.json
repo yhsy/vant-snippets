@@ -827,7 +827,7 @@
     "body": [
       "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
     ],
-    "description": "Vant <van-action-sheet>"
+    "description": "Vant <van-action-sheet>动作面板</van-action-sheet>"
   },
   "Action: van-dropdown-menu": {
     "prefix": "vandm",
