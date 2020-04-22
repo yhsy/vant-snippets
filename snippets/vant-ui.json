@@ -820,7 +820,7 @@
     "body": [
       "<van-overlay :show=\"\" />"
     ],
-    "description": "Vant <van-overlay>"
+    "description": "Vant <van-overlay>遮罩层</van-overlay>"
   },
   "Action: van-action-sheet": {
     "prefix": "vanas",
