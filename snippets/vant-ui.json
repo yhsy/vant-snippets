@@ -829,6 +829,13 @@
     ],
     "description": "Vant <van-action-sheet>动作面板</van-action-sheet>"
   },
+  "Action: van-action-sheet-cancel": {
+    "prefix": "vanactionsheetcancel",
+    "body": [
+      "<van-action-sheet  v-model=\"${1}\" :actions=\"${2}\" @cancel=\"${2}\" cancel-text=\"取消\"/>"
+    ],
+    "description": "Vant <van-action-sheet @cancel=\"\">含取消动作面板</van-action-sheet>"
+  },
   "Action: van-dropdown-menu": {
     "prefix": "vandm",
     "body": [
