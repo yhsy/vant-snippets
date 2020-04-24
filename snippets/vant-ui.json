@@ -847,11 +847,11 @@
     "prefix": "vandm",
     "body": [
       "<van-dropdown-menu>",
-      "\t<van-dropdown-item v-model=\"\" :options=\"\" />",
-      "\t<van-dropdown-item v-model=\"\" :options=\"\" />",
+      "\t<van-dropdown-item v-model=\"${1}\" :options=\"${2}\" />",
+      "\t<van-dropdown-item v-model=\"${3}\" :options=\"${4}\" />",
       "</van-dropdown-menu>"
     ],
-    "description": "Vant <van-dropdown-menu>"
+    "description": "Vant <van-dropdown-menu>下拉菜单</van-dropdown-menu>"
   },
   "Action: van-pull-refresh": {
     "prefix": "vanpr",
