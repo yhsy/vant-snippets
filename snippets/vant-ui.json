@@ -853,6 +853,16 @@
     ],
     "description": "Vant <van-dropdown-menu>下拉菜单</van-dropdown-menu>"
   },
+  "Action: van-dropdown-menu-color": {
+    "prefix": "vandropdownmenucolor",
+    "body": [
+      "<van-dropdown-menu active-color=\"#ee0a24\">",
+      "\t<van-dropdown-item v-model=\"${1}\" :options=\"${2}\" />",
+      "\t<van-dropdown-item v-model=\"${3}\" :options=\"${4}\" />",
+      "</van-dropdown-menu>"
+    ],
+    "description": "Vant <van-dropdown-menu active-color=\"#ee0a24\">自定义选中颜色下拉菜单</van-dropdown-menu>"
+  },
   "Action: van-pull-refresh": {
     "prefix": "vanpr",
     "body": [
