@@ -866,9 +866,9 @@
   "Action: van-pull-refresh": {
     "prefix": "vanpr",
     "body": [
-      "<van-pull-refresh v-model=\"${1}\" @refresh=\"\" ></van-pull-refresh>"
+      "<van-pull-refresh v-model=\"${1}\" @refresh=\"${2}\" ></van-pull-refresh>"
     ],
-    "description": "Vant <van-pull-refresh>"
+    "description": "Vant <van-pull-refresh>下拉刷新</van-pull-refresh>"
   },
   "Action: van-swipe-cell": {
     "prefix": "vansc",
