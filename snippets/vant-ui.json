@@ -870,6 +870,14 @@
     ],
     "description": "Vant <van-pull-refresh>下拉刷新</van-pull-refresh>"
   },
+  "Action: van-pull-refresh-success": {
+    "prefix": "vanpullrefreshsuccess",
+    "body": [
+      "<van-pull-refresh v-model=\"${1}\" @refresh=\"${2}\" success-text=\"刷新成功\">",
+      "\t </van-pull-refresh>"
+    ],
+    "description": "Vant <van-pull-refresh success-text=\"刷新成功\">下拉刷新</van-pull-refresh>"
+  },
   "Action: van-swipe-cell": {
     "prefix": "vansc",
     "body": [
