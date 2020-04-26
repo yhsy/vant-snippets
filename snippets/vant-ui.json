@@ -894,6 +894,25 @@
     ],
     "description": "Vant <van-swipe-cell>滑动单元格</van-swipe-cell>"
   },
+  "Action: van-swipe-cell-template": {
+    "prefix": "vanswipecelltemplate",
+    "body": [
+      "<van-swipe-cell>",
+      "\t <van-card",
+      "\t num=\"2\"",
+      "\t price=\"2.00\"",
+      "\t desc=\"描述信息\"",
+      "\t title=\"商品标题\"",
+      "\t class=\"goods-card\"",
+      "\t thumb=\"https://img.yzcdn.cn/vant/cat.jpeg\"",
+      "\t/>",
+      "\t <template slot=\"right\">",
+      "\t   <van-button square type=\"danger\" text=\"删除\" />",
+      "\t </template>",
+      "</van-swipe-cell>"
+    ],
+    "description": "Vant <van-swipe-cell>自定义内容滑动单元格</van-swipe-cell>"
+  },
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
