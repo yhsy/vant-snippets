@@ -892,7 +892,7 @@
       "\t </template>",
       "</van-swipe-cell>"
     ],
-    "description": "Vant <van-swipe-cell>"
+    "description": "Vant <van-swipe-cell>滑动单元格</van-swipe-cell>"
   },
   "Display: van-circle": {
     "prefix": "vancircle",
