@@ -921,6 +921,13 @@
     ],
     "description": "Vant <van-swipe-cell>分享面板</van-swipe-cell>"
   },
+  "Action: van-share-sheet-description": {
+    "prefix": "vansharesheetdescription",
+    "body": [
+      "<van-share-sheet v-model=\"${2}\" title=\"立即分享给好友\" :options=\"${3}\" description=\"\"/>"
+    ],
+    "description": "Vant <van-swipe-cell description=\"描述\">带描述分享面板</van-swipe-cell>"
+  },
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
