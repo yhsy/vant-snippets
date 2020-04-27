@@ -913,6 +913,14 @@
     ],
     "description": "Vant <van-swipe-cell>自定义内容滑动单元格</van-swipe-cell>"
   },
+  "Action: van-share-sheet": {
+    "prefix": "vanss",
+    "body": [
+      "<van-cell title=\"显示分享面板\" @click=\"${1}\" />",
+      "<van-share-sheet v-model=\"${2}\" title=\"立即分享给好友\" :options=\"${3}\" @select=\"${4}\"/>"
+    ],
+    "description": "Vant <van-swipe-cell>分享面板</van-swipe-cell>"
+  },
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
