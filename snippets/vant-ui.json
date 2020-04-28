@@ -935,6 +935,13 @@
     ],
     "description": "Vant <van-circle>环形进度条<van-circle>"
   },
+  "Display: van-circle-width": {
+    "prefix": "vancirclewidth",
+    "body": [
+      "<van-circle v-model=\"${1}\" :rate=\"${2}\" :stroke-width=\"${3}\" text=\"宽度定制\" />"
+    ],
+    "description": "Vant <van-circle :stroke-width=\"60\">环形进度条(自定义宽度)<van-circle>"
+  },
   "Display: van-progress": {
     "prefix": "vanprogress",
     "body": [
