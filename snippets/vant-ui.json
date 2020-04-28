@@ -931,9 +931,9 @@
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
-      "<van-circle v-model=\"${1}\" :rate=\"\" :speed=\"\" :text=\"\" />"
+      "<van-circle v-model=\"${1}\" :rate=\"${2}\" :speed=\"${3}\" :text=\"${4}\" />"
     ],
-    "description": "Vant <van-circle>"
+    "description": "Vant <van-circle>环形进度条<van-circle>"
   },
   "Display: van-progress": {
     "prefix": "vanprogress",
