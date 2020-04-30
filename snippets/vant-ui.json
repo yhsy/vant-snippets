@@ -956,6 +956,13 @@
     ],
     "description": "Vant <van-progress stroke-width=\"8\">进度条(自定义宽度)</van-progress>"
   },
+  "Display: van-progress-inactive": {
+    "prefix": "vanprogressinactive",
+    "body": [
+      "<van-progress :percentage=\"${1}\" inactive/>"
+    ],
+    "description": "Vant <van-progress inactive>进度条(置灰)</van-progress>"
+  },
   "Display: van-collapse": {
     "prefix": "vancollapse",
     "body": [
