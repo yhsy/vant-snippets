@@ -979,7 +979,7 @@
       "\t <van-collapse-item title=\"标题3\" name=\"3\">内容3</van-collapse-item>",
       "</van-collapse>"
     ],
-    "description": "Vant <van-collapse>"
+    "description": "Vant <van-collapse>折叠面板<van-collapse>"
   },
   "Display: van-count-down": {
     "prefix": "vancd",
