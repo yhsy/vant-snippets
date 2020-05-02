@@ -997,7 +997,7 @@
     "body": [
       "<van-count-down :time=\"${1}\" />"
     ],
-    "description": "Vant <van-count-down>"
+    "description": "Vant <van-count-down>倒计时</van-count-down>"
   },
   "Display: van-divider": {
     "prefix": "vandv",
