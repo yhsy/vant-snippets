@@ -995,6 +995,13 @@
   "Display: van-count-down": {
     "prefix": "vancd",
     "body": [
+      "<van-count-down :time=\"${1}\" format=\"DD 天 HH 时 mm 分 ss 秒\"/>"
+    ],
+    "description": "Vant <van-count-down format=\"DD 天 HH 时 mm 分 ss 秒\">倒计时(自定义格式)</van-count-down>"
+  },
+  "Display: van-count-down-format": {
+    "prefix": "vancountdownformat",
+    "body": [
       "<van-count-down :time=\"${1}\" />"
     ],
     "description": "Vant <van-count-down>倒计时</van-count-down>"
