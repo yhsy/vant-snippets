@@ -995,23 +995,23 @@
   "Display: van-count-down": {
     "prefix": "vancd",
     "body": [
-      "<van-count-down :time=\"${1}\" format=\"DD 天 HH 时 mm 分 ss 秒\"/>"
+      "<van-count-down :time=\"${1}\" />"
     ],
-    "description": "Vant <van-count-down format=\"DD 天 HH 时 mm 分 ss 秒\">倒计时(自定义格式)</van-count-down>"
+    "description": "Vant <van-count-down :time=\"60\">倒计时</van-count-down>"
   },
   "Display: van-count-down-format": {
     "prefix": "vancountdownformat",
     "body": [
-      "<van-count-down :time=\"${1}\" />"
+      "<van-count-down :time=\"${1}\" format=\"DD 天 HH 时 mm 分 ss 秒\"/>"
     ],
-    "description": "Vant <van-count-down>倒计时</van-count-down>"
+    "description": "Vant <van-count-down format=\"DD 天 HH 时 mm 分 ss 秒\">倒计时(自定义格式)</van-count-down>"
   },
   "Display: van-divider": {
     "prefix": "vandv",
     "body": [
-      "<van-divider>文字</van-divider>"
+      "<van-divider/>"
     ],
-    "description": "Vant <van-divider>"
+    "description": "Vant <van-divider>分割线</van-divider>"
   },
   "Display: van-lazy": {
     "prefix": "vanlz",
