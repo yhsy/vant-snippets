@@ -1013,6 +1013,13 @@
     ],
     "description": "Vant <van-divider>分割线</van-divider>"
   },
+  "Display: van-divider-text": {
+    "prefix": "vandividertext",
+    "body": [
+      "<van-divider>${1}</van-divider>"
+    ],
+    "description": "Vant <van-divider>分割线(展示文字)</van-divider>"
+  },
   "Display: van-lazy": {
     "prefix": "vanlz",
     "body": [
