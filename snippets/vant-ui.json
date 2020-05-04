@@ -1020,6 +1020,13 @@
     ],
     "description": "Vant <van-divider>分割线(展示文字)</van-divider>"
   },
+  "Display: van-divider-dashed": {
+    "prefix": "vandividerdashed",
+    "body": [
+      "<van-divider dashed>${1}</van-divider>"
+    ],
+    "description": "Vant <van-divider dashed>分割线(虚线)</van-divider>"
+  },
   "Display: van-lazy": {
     "prefix": "vanlz",
     "body": [
