@@ -1027,6 +1027,13 @@
     ],
     "description": "Vant <van-divider dashed>分割线(虚线)</van-divider>"
   },
+  "Display: van-divider-style": {
+    "prefix": "vandividerstyle",
+    "body": [
+      "<van-divider :style=\"${1}\">${2}</van-divider>"
+    ],
+    "description": "Vant <van-divider :style=\"\">分割线(自定义样式)</van-divider>"
+  },
   "Display: van-lazy": {
     "prefix": "vanlz",
     "body": [
