@@ -1037,9 +1037,9 @@
   "Display: van-lazy": {
     "prefix": "vanlz",
     "body": [
-      "<img v-for=\"img in imageList\" v-lazy=\"img\" />"
+      "<img v-for=\"${1}\" v-lazy=\"${2}\" />"
     ],
-    "description": "Vant <van-lazy>"
+    "description": "Vant <van-lazy>懒加载</van-lazy>"
   },
   "Display: van-list": {
     "prefix": "vanlist",
