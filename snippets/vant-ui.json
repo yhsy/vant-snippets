@@ -1034,12 +1034,19 @@
     ],
     "description": "Vant <van-divider :style=\"\">分割线(自定义样式)</van-divider>"
   },
-  "Display: van-lazy": {
+  "Display: van-lazyload": {
     "prefix": "vanlz",
     "body": [
       "<img v-for=\"${1}\" v-lazy=\"${2}\" />"
     ],
     "description": "Vant <van-lazy>懒加载</van-lazy>"
+  },
+  "Display: van-lazy-background": {
+    "prefix": "vanlazybackground",
+    "body": [
+      "<img v-for=\"${1}\" v-lazy:background-image=\"${2}\" />"
+    ],
+    "description": "Vant <van-lazy v-lazy:background-image=\"img\">懒加载(背景图)</van-lazy>"
   },
   "Display: van-list": {
     "prefix": "vanlist",
