@@ -1051,11 +1051,11 @@
   "Display: van-list": {
     "prefix": "vanlist",
     "body": [
-      "<van-list v-model=\"\" :finished=\"\" finished-text=\"没有更多了\" @load=\"\">",
+      "<van-list v-model=\"${1}\" :finished=\"${2}\" finished-text=\"没有更多了\" @load=\"${3}\">",
       "\t <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\"/>",
       "</van-list>"
     ],
-    "description": "Vant <van-list>"
+    "description": "Vant <van-list>列表</van-list>"
   },
   "Display: van-notice-bar": {
     "prefix": "vanntb",
