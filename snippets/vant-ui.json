@@ -1057,6 +1057,15 @@
     ],
     "description": "Vant <van-list>列表</van-list>"
   },
+  "Display: van-list-error": {
+    "prefix": "vanlisterror",
+    "body": [
+      "<van-list v-model=\"${1}\"  :error.sync=\"${2}\" error-text=\"请求失败，点击重新加载\" @load=\"${3}\">",
+      "\t <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\"/>",
+      "</van-list>"
+    ],
+    "description": "Vant <van-list :error.sync=\"\">列表(错误提示)</van-list>"
+  },
   "Display: van-notice-bar": {
     "prefix": "vanntb",
     "body": [
