@@ -1062,9 +1062,20 @@
     "body": [
       "<van-list v-model=\"${1}\"  :error.sync=\"${2}\" error-text=\"请求失败，点击重新加载\" @load=\"${3}\">",
       "\t <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\"/>",
-      "</van-list>"
+      "\t </van-list>"
     ],
     "description": "Vant <van-list :error.sync=\"\">列表(错误提示)</van-list>"
+  },
+  "Display: van-list-pull-refresh": {
+    "prefix": "vanlistpullrefresh",
+    "body": [
+      "\t <van-pull-refresh v-model=\"${1}\" @refresh=\"${2}\">",
+      "\t   <van-list v-model=\"${3}\" :finished=\"${4}\" finished-text=\"没有更多了\" @load=\"${5}\" >",
+      "\t     <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\" />",
+      "\t   </van-list>",
+      "\t </van-pull-refresh>"
+    ],
+    "description": "Vant <van-pull-refresh><van-list>列表(下拉刷新)</van-list></van-pull-refresh>"
   },
   "Display: van-notice-bar": {
     "prefix": "vanntb",
