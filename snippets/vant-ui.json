@@ -1093,6 +1093,19 @@
     ],
     "description": "Vant <van-panel>Panel面板</van-panel>"
   },
+  "Display: van-panel-slot": {
+    "prefix": "vanpanelslot",
+    "body": [
+      "<van-panel  title=\"${1}\" desc=\"${2}\" status=\"${3}\">",
+      "\t<div>${4}</div>",
+      "\t<template #footer>",
+      "\t <van-button size=\"small\" type=\"primary\">确定</van-button>",
+      "\t <van-button size=\"small\">取消</van-button>",
+      "\t</template>",
+      "</van-panel>"
+    ],
+    "description": "Vant <van-panel>Panel面板(自定义内容)</van-panel>"
+  },
   "Display: van-skeleton": {
     "prefix": "vansk",
     "body": [
