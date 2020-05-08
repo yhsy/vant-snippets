@@ -1091,7 +1091,7 @@
       "\t <div>${4}</div>",
       "</van-panel>"
     ],
-    "description": "Vant <van-panel>Panel面板</van-panel>"
+    "description": "Vant <van-panel>面板</van-panel>"
   },
   "Display: van-panel-slot": {
     "prefix": "vanpanelslot",
@@ -1104,14 +1104,14 @@
       "\t</template>",
       "</van-panel>"
     ],
-    "description": "Vant <van-panel>Panel面板(自定义内容)</van-panel>"
+    "description": "Vant <van-panel>面板(自定义内容)</van-panel>"
   },
   "Display: van-skeleton": {
     "prefix": "vansk",
     "body": [
-      "<van-skeleton title :row=\"3\" />"
+      "<van-skeleton title :row=\"${1}\" />"
     ],
-    "description": "Vant <van-skeleton>"
+    "description": "Vant <van-skeleton>骨架屏</van-skeleton>"
   },
   "Display: van-steps": {
     "prefix": "vansteps",
