@@ -1113,6 +1113,13 @@
     ],
     "description": "Vant <van-skeleton>骨架屏</van-skeleton>"
   },
+  "Display: van-skeleton-avatar": {
+    "prefix": "vanskeletonavatar",
+    "body": [
+      "<van-skeleton title avatar :row=\"${1}\" />"
+    ],
+    "description": "Vant <van-skeleton>骨架屏(显示头像)</van-skeleton>"
+  },
   "Display: van-steps": {
     "prefix": "vansteps",
     "body": [
