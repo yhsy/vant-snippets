@@ -1157,6 +1157,17 @@
     ],
     "description": "Vant <van-sticky offset-top=\"50\">粘性布局(吸顶距离)</van-sticky>"
   },
+  "Display: van-sticky-container": {
+    "prefix": "vanstickycontainer",
+    "body": [
+      "<div ref=\"container\" style=\"height: 150px;\">",
+      "<van-sticky :container=\"${1}\">",
+      "\t <van-button type=\"warnning\" >指定容器</van-button>",
+      "\t</van-sticky>",
+      "\t</div>"
+    ],
+    "description": "Vant <van-sticky :container=\"container\">粘性布局(指定容器)</van-sticky>"
+  },
   "Display: van-swipe": {
     "prefix": "vansw",
     "body": [
