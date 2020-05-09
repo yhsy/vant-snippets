@@ -1148,6 +1148,15 @@
     ],
     "description": "Vant <van-sticky>粘性布局</van-sticky>"
   },
+  "Display: van-sticky-offset": {
+    "prefix": "vanstickyoffset",
+    "body": [
+      "<van-sticky offset-top=\"${1}\">",
+      "\t <van-button type=\"info\" >吸顶距离</van-button>",
+      "</van-sticky>"
+    ],
+    "description": "Vant <van-sticky offset-top=\"50\">粘性布局(吸顶距离)</van-sticky>"
+  },
   "Display: van-swipe": {
     "prefix": "vansw",
     "body": [
