@@ -1180,6 +1180,17 @@
     ],
     "description": "Vant <van-swipe>轮播</van-swipe>"
   },
+  "Display: van-swipe-lazyload": {
+    "prefix": "vanswipelazyload",
+    "body": [
+      "<van-swipe :autoplay=\"3000\">",
+      "\t <van-swipe-item v-for=\"(item, index) in ${1}\" :key=\"index\">",
+      "\t <img v-lazy=\"item\" />",
+      "\t </van-swipe-item>",
+      "\t </van-swipe>"
+    ],
+    "description": "Vant <van-swipe>轮播(图片懒加载)</van-swipe>"
+  },
   "Display: van-tag": {
     "prefix": "vantag",
     "body": [
