@@ -1178,7 +1178,7 @@
       "\t <van-swipe-item>4</van-swipe-item>",
       "</van-swipe>"
     ],
-    "description": "Vant <van-swipe>"
+    "description": "Vant <van-swipe>轮播</van-swipe>"
   },
   "Display: van-tag": {
     "prefix": "vantag",
