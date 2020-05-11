@@ -1218,9 +1218,9 @@
   "Display: van-tag": {
     "prefix": "vantag",
     "body": [
-      "<van-tag type=\"${2|primary,danger,success|}\">${1}</van-tag>"
+      "<van-tag type=\"${2|primary,danger,success|warning}\">${1}</van-tag>"
     ],
-    "description": "Vant <van-tag>"
+    "description": "Vant <van-tag>标签</van-tag>"
   },
   "Navigation: van-grid": {
     "prefix": "vangrid",
