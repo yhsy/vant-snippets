@@ -1203,6 +1203,18 @@
     ],
     "description": "Vant <van-swipe @change=\"${1}\">轮播(监听change)</van-swipe>"
   },
+  "Display: van-swipe-vertical": {
+    "prefix": "vanswipevertical",
+    "body": [
+      "<van-swipe style=\"height: 200px;\" vertical>",
+      "\t <van-swipe-item>1</van-swipe-item>",
+      "\t <van-swipe-item>2</van-swipe-item>",
+      "\t <van-swipe-item>3</van-swipe-item>",
+      "\t <van-swipe-item>4</van-swipe-item>",
+      "\t </van-swipe>"
+    ],
+    "description": "Vant <van-swipe vertical>轮播(纵向滚动)</van-swipe>"
+  },
   "Display: van-tag": {
     "prefix": "vantag",
     "body": [
