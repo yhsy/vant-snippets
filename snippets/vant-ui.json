@@ -1243,6 +1243,13 @@
     ],
     "description": "Vant <van-tag plain>标签(空心)</van-tag>"
   },
+  "Display: van-tag-color": {
+    "prefix": "vantagcolor",
+    "body": [
+      "<van-tag color=\"${1}\" text-color=\"${2}\">${3}</van-tag>"
+    ],
+    "description": "Vant <van-tag color=\"#f2826a\">标签(自定义颜色)</van-tag>"
+  },
   "Navigation: van-grid": {
     "prefix": "vangrid",
     "body": [
