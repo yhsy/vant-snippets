@@ -1191,6 +1191,18 @@
     ],
     "description": "Vant <van-swipe>轮播(图片懒加载)</van-swipe>"
   },
+  "Display: van-swipe-change": {
+    "prefix": "vanswipechange",
+    "body": [
+      "<van-swipe @change=\"${1}\">",
+      "\t <van-swipe-item>1</van-swipe-item>",
+      "\t <van-swipe-item>2</van-swipe-item>",
+      "\t <van-swipe-item>3</van-swipe-item>",
+      "\t <van-swipe-item>4</van-swipe-item>",
+      "\t </van-swipe>"
+    ],
+    "description": "Vant <van-swipe @change=\"${1}\">轮播(监听change)</van-swipe>"
+  },
   "Display: van-tag": {
     "prefix": "vantag",
     "body": [
