@@ -1218,9 +1218,16 @@
   "Display: van-tag": {
     "prefix": "vantag",
     "body": [
-      "<van-tag type=\"${2|primary,danger,success|warning}\">${1}</van-tag>"
+      "<van-tag type=\"${1|primary,danger,success|warning}\">${2}</van-tag>"
     ],
     "description": "Vant <van-tag>标签</van-tag>"
+  },
+  "Display: van-tag-round": {
+    "prefix": "vantaground",
+    "body": [
+      "<van-tag type=\"${1|primary,danger,success|warning}\" round>${2}</van-tag>"
+    ],
+    "description": "Vant <van-tag round>标签(圆角)</van-tag>"
   },
   "Navigation: van-grid": {
     "prefix": "vangrid",
