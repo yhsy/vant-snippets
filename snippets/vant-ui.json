@@ -1260,7 +1260,7 @@
   "Display: van-empty-image": {
     "prefix": "vanemptyimage",
     "body": [
-      "<van-empty image=\"${1}|error,network,search\" description=\"${2}\" />"
+      "<van-empty image=\"${1|error,network,search|}\" description=\"${2}\" />"
     ],
     "description": "Vant <van-empty image=\"\">空状态(图片)</van-empty>"
   },
