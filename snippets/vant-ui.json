@@ -1255,7 +1255,14 @@
     "body": [
       "<van-empty description=\"${1}\" />"
     ],
-    "description": "Vant <van-empty description=\"${1}\">空状态</van-empty>"
+    "description": "Vant <van-empty description=\"描述文字\">空状态</van-empty>"
+  },
+  "Display: van-empty-image": {
+    "prefix": "vanemptyimage",
+    "body": [
+      "<van-empty image=\"${1}|error,network,search\" description=\"${2}\" />"
+    ],
+    "description": "Vant <van-empty image=\"\">空状态(图片)</van-empty>"
   },
   "Navigation: van-grid": {
     "prefix": "vangrid",
