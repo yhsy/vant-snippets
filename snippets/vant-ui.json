@@ -1250,6 +1250,13 @@
     ],
     "description": "Vant <van-tag color=\"#f2826a\">标签(自定义颜色)</van-tag>"
   },
+  "Display: van-empty": {
+    "prefix": "vanempty",
+    "body": [
+      "<van-empty description=\"${1}\" />"
+    ],
+    "description": "Vant <van-empty description=\"${1}\">空状态</van-empty>"
+  },
   "Navigation: van-grid": {
     "prefix": "vangrid",
     "body": [
