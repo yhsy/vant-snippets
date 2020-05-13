@@ -1276,6 +1276,15 @@
     ],
     "description": "Vant <van-grid>宫格</van-grid>"
   },
+  "Navigation: van-grid-column": {
+    "prefix": "vangridcol",
+    "body": [
+      "<van-grid :column-num=\"${1}\">",
+      "\t <van-grid-item v-for=\"value in 6\" :key=\"value\" icon=\"photo-o\" text=\"文字\"/>",
+      "</van-grid>"
+    ],
+    "description": "Vant <van-grid  :column-num=\"3\">宫格(自定义列数)</van-grid>"
+  },
   "Navigation: van-index-bar": {
     "prefix": "vanib",
     "body": [
