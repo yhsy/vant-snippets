@@ -1268,10 +1268,13 @@
     "prefix": "vangrid",
     "body": [
       "<van-grid>",
-      "\t <van-grid-item v-for=\"value in 4\" :key=\"value\" icon=\"photo-o\" text=\"文字\"/>",
+      "\t <van-grid-item icon=\"${1}\" text=\"${2}\"/>",
+      "\t <van-grid-item icon=\"${3}\" text=\"${4}\"/>",
+      "\t <van-grid-item icon=\"${5}\" text=\"${6}\"/>",
+      "\t <van-grid-item icon=\"${7}\" text=\"${8}\"/>",
       "</van-grid>"
     ],
-    "description": "Vant <van-grid>"
+    "description": "Vant <van-grid>宫格</van-grid>"
   },
   "Navigation: van-index-bar": {
     "prefix": "vanib",
