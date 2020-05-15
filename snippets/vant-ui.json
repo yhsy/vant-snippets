@@ -1302,6 +1302,23 @@
     ],
     "description": "Vant <van-index-bar>索引栏</van-index-bar>"
   },
+  "Navigation: van-index-bar-custom": {
+    "prefix": "vanindexbarcustom",
+    "body": [
+      "<van-index-bar :index-list=\"${1}\">",
+      "\t <van-index-anchor index=\"${2}\" />",
+      "\t   <van-cell title=\"文本\" />",
+      "\t   <van-cell title=\"文本\" />",
+      "\t   <van-cell title=\"文本\" />",
+      "\n",
+      "\t <van-index-anchor index=\"${3}\" />",
+      "\t     <van-cell title=\"文本\" />",
+      "\t     <van-cell title=\"文本\" />",
+      "\t     <van-cell title=\"文本\" />",
+      "</van-index-bar>"
+    ],
+    "description": "Vant <van-index-bar :index-list=\"\">索引栏(自定义)</van-index-bar>"
+  },
   "Navigation: van-nav-bar": {
     "prefix": "vannb",
     "body": [
