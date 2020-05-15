@@ -1300,7 +1300,7 @@
       "\t     <van-cell title=\"文本\" />",
       "</van-index-bar>"
     ],
-    "description": "Vant <van-index-bar>"
+    "description": "Vant <van-index-bar>索引栏</van-index-bar>"
   },
   "Navigation: van-nav-bar": {
     "prefix": "vannb",
