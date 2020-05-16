@@ -1324,7 +1324,7 @@
     "body": [
       "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"\" @click-right=\"\"/>"
     ],
-    "description": "Vant <van-nav-bar>"
+    "description": "Vant <van-nav-bar>导航栏</van-nav-bar>"
   },
   "Navigation: van-pagination": {
     "prefix": "vanpg",
