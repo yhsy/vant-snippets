@@ -1326,6 +1326,16 @@
     ],
     "description": "Vant <van-nav-bar>导航栏</van-nav-bar>"
   },
+  "Navigation: van-nav-bar-slots": {
+    "prefix": "vannavbarslots",
+    "body": [
+      "<van-nav-bar title=\"标题\" left-text=\"返回\" @click-left=\"\" left-arrow/>",
+      "\t<template #right>",
+      "\t   <van-icon name=\"search\" size=\"18\" />",
+      "\t</template>"
+    ],
+    "description": "Vant <van-nav-bar>导航栏</van-nav-bar>"
+  },
   "Navigation: van-pagination": {
     "prefix": "vanpg",
     "body": [
