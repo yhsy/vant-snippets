@@ -1343,6 +1343,13 @@
     ],
     "description": "Vant <van-pagination>分页<van-pagination>"
   },
+  "Navigation: van-pagination-base": {
+    "prefix": "vanpaginationbase",
+    "body": [
+      "<van-pagination v-model=\"${1}\" :page-count=\"${2}\" mode=\"${3}\" />"
+    ],
+    "description": "Vant <van-pagination :page-count=\"\">分页(简单)<van-pagination>"
+  },
   "Navigation: van-sidebar": {
     "prefix": "vansd",
     "body": [
