@@ -1339,9 +1339,9 @@
   "Navigation: van-pagination": {
     "prefix": "vanpg",
     "body": [
-      "<van-pagination v-model=\"\" :total-items=\"\" :items-per-page=\"\" />"
+      "<van-pagination v-model=\"${1}\" :total-items=\"${2}\" :items-per-page=\"${3}\" />"
     ],
-    "description": "Vant <van-pagination>"
+    "description": "Vant <van-pagination>分页<van-pagination>"
   },
   "Navigation: van-sidebar": {
     "prefix": "vansd",
