@@ -1360,13 +1360,13 @@
   "Navigation: van-sidebar": {
     "prefix": "vansd",
     "body": [
-      "<van-sidebar v-model=\"\">",
+      "<van-sidebar v-model=\"${1}\">",
       "\t <van-sidebar-item title=\"标签名称\" />",
       "\t <van-sidebar-item title=\"标签名称\" />",
       "\t <van-sidebar-item title=\"标签名称\" />",
       "</van-sidebar>"
     ],
-    "description": "Vant <van-sidebar>"
+    "description": "Vant <van-sidebar>侧边导航</van-sidebar>"
   },
   "Navigation: van-tabs": {
     "prefix": "vantabs",
