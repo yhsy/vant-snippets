@@ -1390,6 +1390,17 @@
     ],
     "description": "Vant <van-sidebar disabled>侧边导航(禁用)</van-sidebar>"
   },
+  "Navigation: van-sidebar-change": {
+    "prefix": "vansidebarchange",
+    "body": [
+      "<van-sidebar v-model=\"${1}\" @change=\"${2}\">",
+      "\t <van-sidebar-item title=\"标签名1\"/>",
+      "\t <van-sidebar-item title=\"标签名2\"/>",
+      "\t <van-sidebar-item title=\"标签名3\"/>",
+      "</van-sidebar>"
+    ],
+    "description": "Vant <van-sidebar @change=\"\">侧边导航(监听切换)</van-sidebar>"
+  },
   "Navigation: van-tabs": {
     "prefix": "vantabs",
     "body": [
