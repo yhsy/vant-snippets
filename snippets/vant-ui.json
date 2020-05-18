@@ -1379,6 +1379,17 @@
     ],
     "description": "Vant <van-sidebar badge=\"5\">侧边导航(徽标提示)</van-sidebar>"
   },
+  "Navigation: van-sidebar-disabled": {
+    "prefix": "vansidebardisabled",
+    "body": [
+      "<van-sidebar v-model=\"${1}\">",
+      "\t <van-sidebar-item title=\"标签名称\" />",
+      "\t <van-sidebar-item title=\"标签名称\" disabled />",
+      "\t <van-sidebar-item title=\"标签名称\"  />",
+      "</van-sidebar>"
+    ],
+    "description": "Vant <van-sidebar disabled>侧边导航(禁用)</van-sidebar>"
+  },
   "Navigation: van-tabs": {
     "prefix": "vantabs",
     "body": [
