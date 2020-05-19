@@ -1413,6 +1413,17 @@
     ],
     "description": "Vant <van-tabs><van-tab>标签页</van-tab></van-tabs>"
   },
+  "Navigation: van-tabs-name": {
+    "prefix": "vantabsname",
+    "body": [
+      "<van-tabs v-model=\"${1}\">",
+      "\t <van-tab title=\"标签1\" name=\"a\">内容 1</van-tab>",
+      "\t <van-tab title=\"标签2\" name=\"b\">内容 2</van-tab>",
+      "\t <van-tab title=\"标签3\" name=\"c\">内容 3</van-tab>",
+      "</van-tabs>"
+    ],
+    "description": "Vant <van-tabs><van-tab name=\"\">标签页(名称匹配)</van-tab></van-tabs>"
+  },
   "Navigation: van-tabbar": {
     "prefix": "vantbar",
     "body": [
