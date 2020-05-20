@@ -1424,6 +1424,17 @@
     ],
     "description": "Vant <van-tabs><van-tab name=\"\">标签页(名称匹配)</van-tab></van-tabs>"
   },
+  "Navigation: van-tabs-type": {
+    "prefix": "vantabstype",
+    "body": [
+      "<van-tabs type=\"${1|line,card}\">",
+      "\t <van-tab title=\"标签1\">内容 1</van-tab>",
+      "\t <van-tab title=\"标签2\">内容 2</van-tab>",
+      "\t <van-tab title=\"标签3\">内容 3</van-tab>",
+      "</van-tabs>"
+    ],
+    "description": "Vant <van-tabs><van-tab type=\"line\">标签页(样式风格)</van-tab></van-tabs>"
+  },
   "Navigation: van-tabbar": {
     "prefix": "vantbar",
     "body": [
