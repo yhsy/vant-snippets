@@ -1435,6 +1435,17 @@
     ],
     "description": "Vant <van-tabs><van-tab type=\"line\">标签页(样式风格)</van-tab></van-tabs>"
   },
+  "Navigation: van-tabs-sticky": {
+    "prefix": "vantabssticky",
+    "body": [
+      "<van-tabs v-model=\"${1}\" sticky>",
+      "\t <van-tab title=\"标签1\">内容 1</van-tab>",
+      "\t <van-tab title=\"标签2\">内容 2</van-tab>",
+      "\t <van-tab title=\"标签3\">内容 3</van-tab>",
+      "</van-tabs>"
+    ],
+    "description": "Vant <van-tabs sticky><van-tab>标签页(粘性布局)</van-tab></van-tabs>"
+  },
   "Navigation: van-tabbar": {
     "prefix": "vantbar",
     "body": [
