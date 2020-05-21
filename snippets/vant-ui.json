@@ -1446,6 +1446,20 @@
     ],
     "description": "Vant <van-tabs sticky><van-tab>标签页(粘性布局)</van-tab></van-tabs>"
   },
+  "Navigation: van-tabs-template": {
+    "prefix": "vantabstemplate",
+    "body": [
+      "<van-tabs v-model=\"${1}\">",
+      "\t <van-tab >",
+      "\t   <template #title> <van-icon name=\"more-o\" />标签1 </template>",
+      "\t </van-tab>",
+      "\t <van-tab >",
+      "\t   <template #title> <van-icon name=\"more-o\" />标签2 </template>",
+      "\t </van-tab>",
+      "</van-tabs>"
+    ],
+    "description": "Vant <van-tabs animated><van-tab>标签页(自定义标签)</van-tab></van-tabs>"
+  },
   "Navigation: van-tabs-animated": {
     "prefix": "vantabsanimated",
     "body": [
