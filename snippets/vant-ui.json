@@ -1458,7 +1458,7 @@
       "\t </van-tab>",
       "</van-tabs>"
     ],
-    "description": "Vant <van-tabs animated><van-tab>标签页(自定义标签)</van-tab></van-tabs>"
+    "description": "Vant <van-tabs><van-tab>标签页(自定义标签)</van-tab></van-tabs>"
   },
   "Navigation: van-tabs-animated": {
     "prefix": "vantabsanimated",
@@ -1470,6 +1470,18 @@
       "</van-tabs>"
     ],
     "description": "Vant <van-tabs animated><van-tab>标签页(切换动画)</van-tab></van-tabs>"
+  },
+  "Navigation: van-tabs-scrollspy": {
+    "prefix": "vantabsscrollspy",
+    "body": [
+      "<van-tabs v-model=\"${1}\"  scrollspy sticky>",
+      "\t <van-tab title=\"标签1\">内容 1</van-tab>",
+      "\t <van-tab title=\"标签2\">内容 2</van-tab>",
+      "\t <van-tab title=\"标签3\">内容 3</van-tab>",
+      "\t <van-tab title=\"标签4\">内容 4</van-tab>",
+      "</van-tabs>"
+    ],
+    "description": "Vant <van-tabs scrollspy><van-tab>标签页(滚动导航)</van-tab></van-tabs>"
   },
   "Navigation: van-tabbar": {
     "prefix": "vantbar",
