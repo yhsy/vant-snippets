@@ -1507,6 +1507,22 @@
     ],
     "description": "Vant <van-tabbar name=\"\">标签栏(名称匹配)</van-tabbar>"
   },
+  "Navigation: van-tabbar-icon": {
+    "prefix": "vanttabbaricon",
+    "body": [
+      "<van-tabbar v-model=\"${1}\">",
+        "\t <van-tabbar-item badge=\"3\">",
+        "\t <span>自定义</span>",
+        "\t <template #icon=\"props\">",
+        "\t <img src=\"https://img.yzcdn.cn/vant/user-active.png\" />",
+        "\t </template>",
+      "\t</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"search\" name=\"search\">菜单2</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"setting-o\" name=\"setting\">菜单3</van-tabbar-item>",
+      "</van-tabbar>"
+    ],
+    "description": "Vant <van-tabbar icon=\"\">标签栏(自定义图标)</van-tabbar>"
+  },
   "Navigation: van-tree-select": {
     "prefix": "vantrs",
     "body": [
