@@ -1542,7 +1542,18 @@
     ],
     "description": "Vant <van-tree-select>分类选择</van-tree-select>"
   },
-  
+  "Navigation: van-tree-select-content": {
+    "prefix": "vantreeselectcontent",
+    "body": [
+      "<van-tree-select :items=\"${1}\" :main-active-index.sync=\"${2}\" height=\"55vw\" >",
+        "\t <template #content>",
+        "\t <van-image v-if=\"${3}\" src=\"https://img.yzcdn.cn/vant/apple-1.jpg\"/>",
+        "\t <van-image v-if=\"${4}\" src=\"https://img.yzcdn.cn/vant/apple-2.jpg\"/>",
+        "\t </template>",
+        "\t </van-tree-select>"
+    ],
+    "description": "Vant <van-tree-select #content>分类选择(自定义内容)</van-tree-select>"
+  },  
   "Business: van-address-edit": {
     "prefix": "vanade",
     "body": [
