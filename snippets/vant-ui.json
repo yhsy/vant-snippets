@@ -1493,7 +1493,7 @@
       "\t <van-tabbar-item icon=\"setting-o\">菜单4</van-tabbar-item>",
       "</van-tabbar>"
     ],
-    "description": "Vant <van-tabbar>"
+    "description": "Vant <van-tabbar>标签栏</van-tabbar>"
   },
   "Navigation: van-tree-select": {
     "prefix": "vantrs",
