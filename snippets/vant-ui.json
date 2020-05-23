@@ -1523,6 +1523,18 @@
     ],
     "description": "Vant <van-tabbar icon=\"\">标签栏(自定义图标)</van-tabbar>"
   },
+  "Navigation: van-tabbar-color": {
+    "prefix": "vantbarcolor",
+    "body": [
+      "<van-tabbar v-model=\"${1}\" active-color=\"#07c160\" inactive-color=\"#000\">",
+      "\t <van-tabbar-item icon=\"home-o\">菜单1</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"search\">菜单2</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"friends-o\">菜单3</van-tabbar-item>",
+      "\t <van-tabbar-item icon=\"setting-o\">菜单4</van-tabbar-item>",
+      "</van-tabbar>"
+    ],
+    "description": "Vant <van-tabbar active-color=\"\">标签栏(自定义颜色)</van-tabbar>"
+  },
   "Navigation: van-tree-select": {
     "prefix": "vantrs",
     "body": [
