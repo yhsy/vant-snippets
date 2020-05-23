@@ -1538,10 +1538,11 @@
   "Navigation: van-tree-select": {
     "prefix": "vantrs",
     "body": [
-      "<van-tree-select :items=\"\" :main-active-index=\"\" :active-id=\"\" @click-nav=\"\" @click-item=\"\" />"
+      "<van-tree-select :items=\"${1}\" :active-id.sync=\"${2}\" :main-active-index.sync=\"${3}\" />"
     ],
-    "description": "Vant <van-tree-select>"
+    "description": "Vant <van-tree-select>分类选择</van-tree-select>"
   },
+  
   "Business: van-address-edit": {
     "prefix": "vanade",
     "body": [
