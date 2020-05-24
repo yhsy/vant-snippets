@@ -21,34 +21,37 @@
 2. Totally  snippets. Will add more if necessary.
 3. **Only work in .vue file for now.**
 
-#### Basic Part (8)
+#### Basic Part (9)
 |  No.  | Trigger&nbsp;Key | Vant Tag                |
 | :---: | :--------------: | :---------------------- |
-|  1.   |      `vanr`      | `<van-row>`             |
-|  2.   |      `vanc`      | `<van-col>`             |
-|  3.   |     `vanrf`      | `<van-row type="flex">` |
-|  4.   |      `vanb`      | `<van-button>`          |
-|  5.   |    `vancell`     | `<van-cell>`            |
-|  6.   |    `vanicon`     | `<van-icon>`            |
-|  7.   |     `vanimg`     | `<van-image>`           |
-|  8.   |    `vanpopup`    | `<van-popup>`           |
+|  1.   |      `vanb`      | `<van-button>`          |
+|  2.   |    `vancell`     | `<van-cell>`            |
+|  3.   |    `vanicon`     | `<van-icon>`            |
+|  4.   |     `vanimg`     | `<van-image>`           |
+|  5.   |      `vanr`      | `<van-row>`             |
+|  6.   |     `vanrf`      | `<van-row type="flex">` |
+|  7.   |     `vanrg`      | `<van-row gutter="">`   |
+|  8.   |      `vanc`      | `<van-col>`             |
+|  9.   |    `vanpopup`    | `<van-popup>`           |
 
-
-#### Form Part (11)
+#### Form Part (14)
 
 |  No.  | Trigger&nbsp;Key | Vant Tag                |
 | :---: | :--------------: | :---------------------- |
-|  1.   |     `vanfd`      | `<van-field>`           |
-|  2.   |     `vanrd`      | `<van-radio>`           |
-|  3.   |     `vanck`      | `<van-checkbox>`        |
-|  4.   |    `vanrate`     | `<van-rate>`            |
-|  5.   |   `vansearch`    | `van-search`            |
-|  6.   |   `vanslider`    | `van-slider`            |
-|  7.   |   `vanstepper`   | `<van-stepper>`         |
-|  8.   |   `vanswitch`    | `<van-switch>`          |
-|  9.   |     `vanpk`      | `<van-picker>`          |
-|  10.  |    `vandate`     | `<van-datetime-picker>` |
-|  11.  |     `vanup`      | `<van-uploader>`        |
+|  1.   |     `vanck`      | `<van-checkbox>`        |
+|  2.   |    `vandate`     | `<van-datetime-picker>` |
+|  3.   |     `vanfd`      | `<van-field>`           |
+|  4.   |     `vanform`    | `<van-form>`            |
+|  5.   |     `vankbn`     | `<van-number-keyboard>` |
+|  6.   |     `vanpass`    | `<van-password-input>`  |
+|  7.   |     `vanpk`      | `<van-picker>`          |
+|  8.   |     `vanrd`      | `<van-radio>`           |
+|  9.   |    `vanrate`     | `<van-rate>`            |
+|  10.  |   `vansearch`    | `van-search`            |
+|  11.  |   `vanslider`    | `van-slider`            |
+|  12.  |   `vanstepper`   | `<van-stepper>`         |
+|  13.  |   `vanswitch`    | `<van-switch>`          |
+|  14.  |     `vanup`      | `<van-uploader>`        |
 
 
 #### Action Part (11)
