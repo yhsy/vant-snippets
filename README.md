@@ -54,22 +54,23 @@
 |  14.  |     `vanup`      | `<van-uploader>`        |
 
 
-#### Action Part (11)
+#### Action Part (12)
 
 
 |  No.  | Trigger Key | Vant Tag              |
 | :---: | :---------: | :-------------------- |
-|  1.   |   `vandg`   | `<van-dialog>`        |
-|  2.   |   `vanal`   | `Dialog Alert({})`    |
-|  3.   |   `vancf`   | `Dialog Confirm({})`  |
-|  4.   |   `vannt`   | `Notify({})`          |
-|  5.   |   `vants`   | `Toast({})`           |
+|  1.   |   `vanas`   | `<van-action-sheet>`  |
+|  2.   |   `vandg`   | `<van-dialog>`        |
+|  3.   |   `vanal`   | `Dialog Alert({})`    |
+|  4.   |   `vancf`   | `Dialog Confirm({})`  |
+|  5.   |   `vandm`   | `<van-dropdown-menu>` |
 |  6.   |   `vanld`   | `<van-loading>`       |
-|  7.   |   `vanol`   | `<van-overlay>`       |
-|  8.   |   `vanas`   | `<van-action-sheet>`  |
-|  9.   |   `vandm`   | `<van-dropdown-menu>` |
-|  10.  |   `vanpr`   | `<van-pull-refresh>`  |
+|  7.   |   `vannt`   | `Notify({})`          |
+|  8.   |   `vanol`   | `<van-overlay>`       |
+|  9.   |   `vanpr`   | `<van-pull-refresh>`  |
+|  10.  |   `vanshare`| `<van-share-sheet>`   |
 |  11.  |   `vansc`   | `<van-swipe-cell>`    |
+|  12.  |   `vants`   | `Toast({})`           |
 
 
 #### Display Part (15)

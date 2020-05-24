@@ -297,7 +297,6 @@
     ],
     "description": "Vant <van-swipe-cell>滑动单元格</van-swipe-cell>"
   },
-
   "Action: Toast": {
     "prefix": "vants",
     "body": [
