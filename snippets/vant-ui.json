@@ -209,12 +209,38 @@
     ],
     "description": "Vant <van-dialog>弹出框</van-dialog>"
   },
+  "Action: Dialog Alert": {
+    "prefix": "vanal",
+    "body": [
+      "Dialog.alert({",
+      "\t title: \"${1}\",",
+      "\t message: \"${2}\",",
+      "}).then(() => {",
+      "\t ${3}",
+      "})"
+    ],
+    "description": "Vant Dialog.alert('消息提示弹框')"
+  },
+  "Action: Dialog Confirm": {
+    "prefix": "vancf",
+    "body": [
+      "Dialog.confirm({",
+      "\t title: \"${1}\",",
+      "\t message: \"${2}\",",
+      "}).then(() => {",
+      "\t ${3}",
+      "}).catch(() => {",
+      "\t ${4}",
+      "})"
+    ],
+    "description": "Vant Dialog.confirm('确认弹框')"
+  },
   "Action: van-dropdown-menu": {
     "prefix": "vandm",
     "body": [
       "<van-dropdown-menu>",
-      "\t<van-dropdown-item v-model=\"${1}\" :options=\"${2}\" />",
-      "\t<van-dropdown-item v-model=\"${3}\" :options=\"${4}\" />",
+      "\t <van-dropdown-item v-model=\"${1}\" :options=\"${2}\"/>",
+      "\t <van-dropdown-item v-model=\"${3}\" :options=\"${4}\"/>",
       "</van-dropdown-menu>"
     ],
     "description": "Vant <van-dropdown-menu>下拉菜单</van-dropdown-menu>"
@@ -222,14 +248,14 @@
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
-      "<van-loading type=\"${1|circular,spinner|}\" />"
+      "<van-loading type=\"${1|circular,spinner|}\"/>"
     ],
     "description": "Vant <van-loading>Loading加载</van-loading>"
   },
   "Action: Notify": {
     "prefix": "vannt",
     "body": [
-      "Notify(\"${1}\")"
+      "Notify('${1}')"
     ],
     "description": "Vant Notify(\"消息通知\")"
   },
@@ -243,34 +269,35 @@
   "Action: van-pull-refresh": {
     "prefix": "vanpr",
     "body": [
-      "<van-pull-refresh v-model=\"${1}\" @refresh=\"${2}\" ></van-pull-refresh>"
+      "<van-pull-refresh v-model=\"${1}\" @refresh=\"${2}\"></van-pull-refresh>"
     ],
     "description": "Vant <van-pull-refresh>下拉刷新</van-pull-refresh>"
   },
-  "Action: van-swipe-cell": {
-    "prefix": "vansc",
-    "body": [
-      "<van-swipe-cell>",
-      "\t <template slot=\"left\">",
-      "\t   <van-button square type=\"primary\" text=\"选择\" />",
-      "\t </template>",
-      "\t <van-cell :border=\"false\" title=\"单元格\" value=\"内容\" />",
-      "\t <template slot=\"right\">",
-      "\t   <van-button square type=\"danger\" text=\"删除\" />",
-      "\t   <van-button square type=\"primary\" text=\"收藏\"/>",
-      "\t </template>",
-      "</van-swipe-cell>"
-    ],
-    "description": "Vant <van-swipe-cell>滑动单元格</van-swipe-cell>"
-  },
   "Action: van-share-sheet": {
-    "prefix": "vanss",
+    "prefix": "vanshare",
     "body": [
       "<van-cell title=\"显示分享面板\" @click=\"${1}\" />",
       "<van-share-sheet v-model=\"${2}\" title=\"立即分享给好友\" :options=\"${3}\" @select=\"${4}\"/>"
     ],
     "description": "Vant <van-swipe-cell>分享面板</van-swipe-cell>"
   },
+  "Action: van-swipe-cell": {
+    "prefix": "vansc",
+    "body": [
+      "<van-swipe-cell>",
+      "\t <template slot=\"left\">",
+      "\t \t <van-button square type=\"primary\" text=\"选择\" />",
+      "\t </template>",
+      "\t <van-cell :border=\"false\" title=\"单元格\" value=\"内容\" />",
+      "\t <template slot=\"right\">",
+      "\t \t<van-button square type=\"danger\" text=\"删除\" />",
+      "\t \t<van-button square type=\"primary\" text=\"收藏\"/>",
+      "\t </template>",
+      "</van-swipe-cell>"
+    ],
+    "description": "Vant <van-swipe-cell>滑动单元格</van-swipe-cell>"
+  },
+
   "Action: Toast": {
     "prefix": "vants",
     "body": [
