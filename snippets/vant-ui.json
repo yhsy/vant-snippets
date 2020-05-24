@@ -198,7 +198,7 @@
   "Action: van-action-sheet": {
     "prefix": "vanas",
     "body": [
-      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
+      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\"/>"
     ],
     "description": "Vant <van-action-sheet>动作面板</van-action-sheet>"
   },
@@ -209,78 +209,6 @@
     ],
     "description": "Vant <van-dialog>弹出框</van-dialog>"
   },
-  "Action: van-dialog-message": {
-    "prefix": "vandialogmessage",
-    "body": [
-      "Dialog({message:'${1}'})"
-    ],
-    "description": "Vant Dialog({message:\"基础消息弹框\"})"
-  },
-  "Action: Dialog Alert": {
-    "prefix": "vanal",
-    "body": [
-      "Dialog.alert({",
-      "\t title: \"${1}\",",
-      "\t message: \"${2}\",",
-      "\t }).then(() => {",
-      "\t   ${3}",
-      "\t})"
-    ],
-    "description": "Vant Dialog.alert('消息提示弹框')"
-  },
-  "Action: Dialog Confirm": {
-    "prefix": "vancf",
-    "body": [
-      "Dialog.confirm({",
-      "\t title: \"${1}\",",
-      "\t message: \"${2}\",",
-      "\t}).then(() => {",
-      "\t ${3}",
-      "\t}).catch(() => {",
-      "\t ${4}",
-      "\t})"
-    ],
-    "description": "Vant Dialog.confirm('确认弹框')"
-  },
-  "Action: Notify": {
-    "prefix": "vannt",
-    "body": [
-      "Notify(\"${1}\")"
-    ],
-    "description": "Vant Notify(\"消息通知\")"
-  },
-  "Action: Notify-type": {
-    "prefix": "vannotifytype",
-    "body": [
-      "Notify({",
-      "\t type: ${\"${1|primary,success,danger,warnning}\"},",
-      "\t message: \"${2}\"",
-      "\t })"
-    ],
-    "description": "Vant Notify({type:\"消息通知-自定义通知类型\"})"
-  },
-  "Action: Toast": {
-    "prefix": "vants",
-    "body": [
-      "Toast(\"${1}\")"
-    ],
-    "description": "Vant Toast('轻提示')"
-  },
-  "Action: van-loading": {
-    "prefix": "vanld",
-    "body": [
-      "<van-loading type=\"${1|circular,spinner|}\" />"
-    ],
-    "description": "Vant <van-loading>Loading加载</van-loading>"
-  },
-  "Action: van-overlay": {
-    "prefix": "vanol",
-    "body": [
-      "<van-overlay :show=\"\" />"
-    ],
-    "description": "Vant <van-overlay>遮罩层</van-overlay>"
-  },
-
   "Action: van-dropdown-menu": {
     "prefix": "vandm",
     "body": [
@@ -290,6 +218,27 @@
       "</van-dropdown-menu>"
     ],
     "description": "Vant <van-dropdown-menu>下拉菜单</van-dropdown-menu>"
+  },
+  "Action: van-loading": {
+    "prefix": "vanld",
+    "body": [
+      "<van-loading type=\"${1|circular,spinner|}\" />"
+    ],
+    "description": "Vant <van-loading>Loading加载</van-loading>"
+  },
+  "Action: Notify": {
+    "prefix": "vannt",
+    "body": [
+      "Notify(\"${1}\")"
+    ],
+    "description": "Vant Notify(\"消息通知\")"
+  },
+  "Action: van-overlay": {
+    "prefix": "vanol",
+    "body": [
+      "<van-overlay :show=\"\" />"
+    ],
+    "description": "Vant <van-overlay>遮罩层</van-overlay>"
   },
   "Action: van-pull-refresh": {
     "prefix": "vanpr",
@@ -321,6 +270,13 @@
       "<van-share-sheet v-model=\"${2}\" title=\"立即分享给好友\" :options=\"${3}\" @select=\"${4}\"/>"
     ],
     "description": "Vant <van-swipe-cell>分享面板</van-swipe-cell>"
+  },
+  "Action: Toast": {
+    "prefix": "vants",
+    "body": [
+      "Toast(\"${1}\")"
+    ],
+    "description": "Vant Toast('轻提示')"
   },
 
   "Display: van-circle": {
