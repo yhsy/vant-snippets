@@ -102,7 +102,7 @@
   "Form: van-field": {
     "prefix": "vanfd",
     "body": [
-      "<van-field type=\"${1|text,password,textarea,number,tel,digit,|}\" label=\"${2}\" placeholder=\"${3}\" v-model=\"${4}\"/>"
+      "<van-field type=\"${1|text,password,textarea,number,tel,digit|}\" label=\"${2}\" placeholder=\"${3}\" v-model=\"${4}\"/>"
     ],
     "description": "Vant <van-field>输入框</van-field>"
   },
@@ -114,7 +114,7 @@
       "\t <van-field type=\"password\" name=\"密码\" label=\"密码\" placeholder=\"请输入密码\" v-model=\"${3}\" :rules=\"[{ required: true, message: '请填写密码'}]\"/>",
       "\t <div style=\"margin: 16px;\">",
       "\t\t<van-button round block type=\"info\" native-type=\"submit\">提交</van-button>",
-      "\t</div>",
+      "\t </div>",
       "</van-form>"
     ],
     "description": "Vant <van-form>表单</van-form>"
@@ -155,21 +155,21 @@
   "Form: van-rate": {
     "prefix": "vanrate",
     "body": [
-      "<van-rate  v-model=\"${1}\"/>"
+      "<van-rate v-model=\"${1}\"/>"
     ],
     "description": "Vant <van-rate>评分<van-rate>"
   },
   "Form: van-search": {
     "prefix": "vansearch",
     "body": [
-      "<van-search  v-model=\"${1}\" placeholder=\"请输入搜索关键词\" />"
+      "<van-search v-model=\"${1}\" placeholder=\"请输入搜索关键词\" />"
     ],
     "description": "Vant <van-search>搜索</van-search>"
   },
   "Form: van-slider": {
     "prefix": "vanslider",
     "body": [
-      "<van-slider v-model=\"${1}\" @change=\"${2}\" />"
+      "<van-slider v-model=\"${1}\" @change=\"${2}\"/>"
     ],
     "description": "Vant <van-slider>滑块</van-slider>"
   },
@@ -195,6 +195,13 @@
     "description": "Vant <van-uploader :after-read=\"\">文件上传</van-uploader>"
   },
 
+  "Action: van-action-sheet": {
+    "prefix": "vanas",
+    "body": [
+      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
+    ],
+    "description": "Vant <van-action-sheet>动作面板</van-action-sheet>"
+  },
   "Action: van-dialog": {
     "prefix": "vandg",
     "body": [
@@ -273,13 +280,7 @@
     ],
     "description": "Vant <van-overlay>遮罩层</van-overlay>"
   },
-  "Action: van-action-sheet": {
-    "prefix": "vanas",
-    "body": [
-      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
-    ],
-    "description": "Vant <van-action-sheet>动作面板</van-action-sheet>"
-  },
+
   "Action: van-dropdown-menu": {
     "prefix": "vandm",
     "body": [
