@@ -101,10 +101,10 @@
 |  No.  | Trigger Key | Vant Tag            |
 | :---: | :---------: | :------------------ |
 |  1.   |  `vangrid`  | `<van-grid>`        |
-|  2.   |   `vanib`   | `<van-index-bar>`   |
-|  3.   |   `vannb`   | `<van-nav-bar>`     |
-|  4.   |   `vanpg`   | `<van-pagination>`  |
-|  5.   |   `vansd`   | `<van-sidebar>`     |
+|  2.   |  `vanib`    | `<van-index-bar>`   |
+|  3.   |  `vannb`    | `<van-nav-bar>`     |
+|  4.   |  `vanpg`    | `<van-pagination>`  |
+|  5.   |  `vansd`    | `<van-sidebar>`     |
 |  6.   |  `vantabs`  | `<van-tabs>`        |
 |  7.   |  `vantbar`  | `<van-tabbar>`      |
 |  8.   |  `vantrs`   | `<van-tree-select>` |
@@ -118,7 +118,7 @@
 |  4.   |  `vancard`  | `<van-card>`         |
 |  5.   |  `vanctc`   | `<van-contact-card>` |
 |  6.   |  `vancoup`  | `<van-coupon>`       |
-|  7.   | `vangoods`  | `<van-goods-action>` |
+|  7.   |  `vangoods` | `<van-goods-action>` |
 |  8.   |  `vansbar`  | `<van-submit-bar>`   |
 |  9.   |  `vansku`   | `<van-sku>`          |
 

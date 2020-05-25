@@ -441,7 +441,6 @@
     "description": "Vant <van-tag>标签</van-tag>"
   },
 
-
   "Navigation: van-grid": {
     "prefix": "vangrid",
     "body": [
@@ -458,15 +457,15 @@
     "prefix": "vanib",
     "body": [
       "<van-index-bar>",
-      "\t <van-index-anchor index=\"A\" />",
-      "\t   <van-cell title=\"文本\" />",
-      "\t   <van-cell title=\"文本\" />",
-      "\t   <van-cell title=\"文本\" />",
+      "\t <van-index-anchor index=\"A\"/>",
+      "\t <van-cell title=\"文本\"/>",
+      "\t <van-cell title=\"文本\"/>",
+      "\t <van-cell title=\"文本\"/>",
       "\n",
-      "\t <van-index-anchor index=\"B\" />",
-      "\t     <van-cell title=\"文本\" />",
-      "\t     <van-cell title=\"文本\" />",
-      "\t     <van-cell title=\"文本\" />",
+      "\t <van-index-anchor index=\"B\"/>",
+      "\t <van-cell title=\"文本\"/>",
+      "\t <van-cell title=\"文本\"/>",
+      "\t <van-cell title=\"文本\"/>",
       "</van-index-bar>"
     ],
     "description": "Vant <van-index-bar>索引栏</van-index-bar>"
@@ -474,14 +473,14 @@
   "Navigation: van-nav-bar": {
     "prefix": "vannb",
     "body": [
-      "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"\" @click-right=\"\"/>"
+      "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"${1}\" @click-right=\"${2}\"/>"
     ],
     "description": "Vant <van-nav-bar>导航栏</van-nav-bar>"
   },
   "Navigation: van-pagination": {
     "prefix": "vanpg",
     "body": [
-      "<van-pagination v-model=\"${1}\" :total-items=\"${2}\" :items-per-page=\"${3}\" />"
+      "<van-pagination v-model=\"${1}\" :total-items=\"${2}\" :items-per-page=\"${3}\"/>"
     ],
     "description": "Vant <van-pagination>分页<van-pagination>"
   },
@@ -489,9 +488,9 @@
     "prefix": "vansd",
     "body": [
       "<van-sidebar v-model=\"${1}\">",
-      "\t <van-sidebar-item title=\"标签名称\" />",
-      "\t <van-sidebar-item title=\"标签名称\" />",
-      "\t <van-sidebar-item title=\"标签名称\" />",
+      "\t <van-sidebar-item title=\"标签名称\"/>",
+      "\t <van-sidebar-item title=\"标签名称\"/>",
+      "\t <van-sidebar-item title=\"标签名称\"/>",
       "</van-sidebar>"
     ],
     "description": "Vant <van-sidebar>侧边导航</van-sidebar>"
