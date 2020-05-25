@@ -24,34 +24,35 @@
 #### Basic Part (9)
 |  No.  | Trigger&nbsp;Key | Vant Tag                |
 | :---: | :--------------: | :---------------------- |
-|  1.   |      `vanb`      | `<van-button>`          |
+|  1.   |    `vanb`        | `<van-button>`          |
 |  2.   |    `vancell`     | `<van-cell>`            |
 |  3.   |    `vanicon`     | `<van-icon>`            |
-|  4.   |     `vanimg`     | `<van-image>`           |
-|  5.   |      `vanr`      | `<van-row>`             |
-|  6.   |     `vanrf`      | `<van-row type="flex">` |
-|  7.   |     `vanrg`      | `<van-row gutter="">`   |
-|  8.   |      `vanc`      | `<van-col>`             |
+|  4.   |    `vanimg`      | `<van-image>`           |
+|  5.   |    `vanr`        | `<van-row>`             |
+|  6.   |    `vanrf`       | `<van-row type="flex">` |
+|  7.   |    `vanrg`       | `<van-row gutter="">`   |
+|  8.   |    `vanc`        | `<van-col>`             |
 |  9.   |    `vanpopup`    | `<van-popup>`           |
 
-#### Form Part (14)
+#### Form Part (15)
 
 |  No.  | Trigger&nbsp;Key | Vant Tag                |
 | :---: | :--------------: | :---------------------- |
-|  1.   |     `vanck`      | `<van-checkbox>`        |
-|  2.   |    `vandate`     | `<van-datetime-picker>` |
-|  3.   |     `vanfd`      | `<van-field>`           |
-|  4.   |     `vanform`    | `<van-form>`            |
-|  5.   |     `vankbn`     | `<van-number-keyboard>` |
-|  6.   |     `vanpass`    | `<van-password-input>`  |
-|  7.   |     `vanpk`      | `<van-picker>`          |
-|  8.   |     `vanrd`      | `<van-radio>`           |
-|  9.   |    `vanrate`     | `<van-rate>`            |
-|  10.  |   `vansearch`    | `van-search`            |
-|  11.  |   `vanslider`    | `van-slider`            |
-|  12.  |   `vanstepper`   | `<van-stepper>`         |
-|  13.  |   `vanswitch`    | `<van-switch>`          |
-|  14.  |     `vanup`      | `<van-uploader>`        |
+|  1.   |    `vancld`      | `<van-calendar>`        |
+|  2.   |    `vanck`       | `<van-checkbox>`        |
+|  3.   |    `vandate`     | `<van-datetime-picker>` |
+|  4.   |    `vanfd`       | `<van-field>`           |
+|  5.   |    `vanform`     | `<van-form>`            |
+|  6.   |    `vankbn`      | `<van-number-keyboard>` |
+|  7.   |    `vanpass`     | `<van-password-input>`  |
+|  8.   |    `vanpk`       | `<van-picker>`          |
+|  9.   |    `vanrd`       | `<van-radio>`           |
+|  10.  |    `vanrate`     | `<van-rate>`            |
+|  11.  |    `vansearch`   | `van-search`            |
+|  12.  |    `vanslider`   | `van-slider`            |
+|  13.  |    `vanstepper`  | `<van-stepper>`         |
+|  14.  |    `vanswitch`   | `<van-switch>`          |
+|  15.  |    `vanup`       | `<van-uploader>`        |
 
 
 #### Action Part (12)
@@ -73,25 +74,26 @@
 |  12.  |   `vants`   | `Toast({})`           |
 
 
-#### Display Part (15)
+#### Display Part (16)
 
 |  No.  |  Trigger Key  | Vant Tag           |
 | :---: | :-----------: | :----------------- |
-|  1.   |  `vancld`     | `<van-calendar>`   |
-|  2.   |  `vancircle`  | `<van-circle>`     |
-|  3.   | `vanprogress` | `<van-progress>`   |
-|  4.   | `vancollapse` | `<van-collapse>`   |
-|  5.   |    `vancd`    | `<van-count-down>` |
-|  6.   |    `vandv`    | `<van-divider>`    |
-|  7.   |    `vanlz`    | `<van-lazy>`       |
-|  8.   |   `vanlist`   | `<van-list>`       |
-|  9.   |   `vanntb`    | `<van-notice-bar>` |
-|  10.  |    `vanpn`    | `<van-panel>`      |
-|  11.  |    `vansk`    | `<van-skeleton>`   |
-|  12.  |  `vansteps`   | `<van-steps>`      |
-|  13.  |  `vansticky`  | `<van-sticky>`     |
-|  14.  |    `vansw`    | `<van-swipe>`      |
-|  15.  |   `vantag`    | `<van-tag>`        |
+|  1.   | `vancircle`   | `<van-circle>`     |
+|  2.   | `vancollapse` | `<van-collapse>`   |
+|  3.   | `vancd`       | `<van-count-down>` |
+|  4.   | `vandv`       | `<van-divider>`    |
+|  5.   | `vanempty`    | `<van-empty>`      |
+|  6.   | `vanimgpv`    | `ImagePreview([])` |
+|  7.   | `vanlz`       | `<van-lazy>`       |
+|  8.   | `vanlist`     | `<van-list>`       |
+|  9.   | `vanntb`      | `<van-notice-bar>` |
+|  10.  | `vanpn`       | `<van-panel>`      |
+|  11.  | `vanprogress` | `<van-progress>`   |
+|  12.  | `vansk`       | `<van-skeleton>`   |
+|  13.  | `vansteps`    | `<van-steps>`      |
+|  14.  | `vansticky`   | `<van-sticky>`     |
+|  15.  | `vansw`       | `<van-swipe>`      |
+|  16.  | `vantag`      | `<van-tag>`        |
 
 
 #### Navigation Part (8)

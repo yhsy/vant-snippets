@@ -308,21 +308,14 @@
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
-      "<van-circle v-model=\"${1}\" :rate=\"${2}\" :speed=\"${3}\" :text=\"${4}\" />"
+      "<van-circle v-model=\"${1}\" :rate=\"${2}\" :speed=\"${3}\" :text=\"${4}\"/>"
     ],
     "description": "Vant <van-circle>环形进度条<van-circle>"
-  },
-  "Display: van-progress": {
-    "prefix": "vanprogress",
-    "body": [
-      "<van-progress :percentage=\"50\" />"
-    ],
-    "description": "Vant <van-progress>进度条</van-progress>"
   },
   "Display: van-collapse": {
     "prefix": "vancollapse",
     "body": [
-      "<van-collapse v-model=\"\">",
+      "<van-collapse v-model=\"${1}\">",
       "\t <van-collapse-item title=\"标题1\" name=\"1\">内容1</van-collapse-item>",
       "\t <van-collapse-item title=\"标题2\" name=\"2\">内容2</van-collapse-item>",
       "\t <van-collapse-item title=\"标题3\" name=\"3\">内容3</van-collapse-item>",
@@ -333,7 +326,7 @@
   "Display: van-count-down": {
     "prefix": "vancd",
     "body": [
-      "<van-count-down :time=\"${1}\" />"
+      "<van-count-down :time=\"${1}\"/>"
     ],
     "description": "Vant <van-count-down :time=\"60\">倒计时</van-count-down>"
   },
@@ -343,6 +336,23 @@
       "<van-divider/>"
     ],
     "description": "Vant <van-divider>分割线</van-divider>"
+  },
+  "Display: van-empty": {
+    "prefix": "vanempty",
+    "body": [
+      "<van-empty description=\"${1}\"/>"
+    ],
+    "description": "Vant <van-empty description=\"描述文字\">空状态</van-empty>"
+  },
+  "Display: ImagePreview": {
+    "prefix": "vanimagepv",
+    "body": [
+      "ImagePreview([",
+        "\t 'https://img.yzcdn.cn/vant/apple-1.jpg',",
+        "\t 'https://img.yzcdn.cn/vant/apple-2.jpg',",
+        "]);"
+    ],
+    "description": "Vant ImagePreview(['图片预览'])"
   },
   "Display: van-lazyload": {
     "prefix": "vanlz",
@@ -370,11 +380,18 @@
   "Display: van-panel": {
     "prefix": "vanpn",
     "body": [
-      "<van-panel  title=\"${1}\" desc=\"${2}\" status=\"${3}\">",
+      "<van-panel title=\"${1}\" desc=\"${2}\" status=\"${3}\">",
       "\t <div>${4}</div>",
       "</van-panel>"
     ],
     "description": "Vant <van-panel>面板</van-panel>"
+  },
+  "Display: van-progress": {
+    "prefix": "vanprogress",
+    "body": [
+      "<van-progress :percentage=\"50\" />"
+    ],
+    "description": "Vant <van-progress>进度条</van-progress>"
   },
   "Display: van-skeleton": {
     "prefix": "vansk",
@@ -386,7 +403,7 @@
   "Display: van-steps": {
     "prefix": "vansteps",
     "body": [
-      "<van-steps :active=\"active\">",
+      "<van-steps :active=\"${1}\">",
       "\t <van-step>步骤1</van-step>",
       "\t <van-step>步骤2</van-step>",
       "\t <van-step>步骤3</van-step>",
@@ -419,17 +436,11 @@
   "Display: van-tag": {
     "prefix": "vantag",
     "body": [
-      "<van-tag type=\"${1|primary,danger,success|warning}\">${2}</van-tag>"
+      "<van-tag type=\"${1|primary,danger,success,warning|}\">${2}</van-tag>"
     ],
     "description": "Vant <van-tag>标签</van-tag>"
   },
-  "Display: van-empty": {
-    "prefix": "vanempty",
-    "body": [
-      "<van-empty description=\"${1}\" />"
-    ],
-    "description": "Vant <van-empty description=\"描述文字\">空状态</van-empty>"
-  },
+
 
   "Navigation: van-grid": {
     "prefix": "vangrid",
