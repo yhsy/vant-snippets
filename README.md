@@ -5,7 +5,7 @@
  * @LastEditTime: 2019-08-14 15:33:33
  * @LastEditors: Please set LastEditors
  -->
-## This is Code Snippets of Vant for VS Code. (Vant Version: v2.1.2)
+## This is Code Snippets of Vant for VS Code. (Vant Version: v2.8.3)
 ### Git: 
 [Vant Snippets](https://github.com/yhsy/vant-snippets) 
 
