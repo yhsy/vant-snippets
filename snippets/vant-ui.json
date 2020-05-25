@@ -542,7 +542,7 @@
       "\t @change-detail=\"\"",
       "/>"
     ],
-    "description": "Vant <van-address-edit>"
+    "description": "Vant <van-address-edit>地址编辑</van-address-edit>"
   },
   "Business: van-address-list": {
     "prefix": "vanadl",
@@ -557,14 +557,14 @@
       "\t @edit=\"\"",
       "/>"
     ],
-    "description": "Vant <van-address-list>"
+    "description": "Vant <van-address-list>地址列表</van-address-list>"
   },
   "Business: van-area": {
     "prefix": "vanarea",
     "body": [
       "<van-area :area-list=\"\" />"
     ],
-    "description": "Vant <van-area>"
+    "description": "Vant <van-area>省市区选择</van-area>"
   },
   "Business: van-card": {
     "prefix": "vancard",
@@ -577,7 +577,7 @@
       "\t thumb=\"https://img.yzcdn.cn/vant/t-thirt.jpg\"",
       "/>"
     ],
-    "description": "Vant <van-card>"
+    "description": "Vant <van-card>商品卡片</van-card>"
   },
   "Business: van-contact-card": {
     "prefix": "vanctc",
@@ -611,7 +611,7 @@
       "\t/>",
       "</van-popup>"
     ],
-    "description": "Vant <van-contact-card>"
+    "description": "Vant <van-contact-card>联系人</van-contact-card>"
   },
   "Business: van-coupon": {
     "prefix": "vancoup",
@@ -635,7 +635,7 @@
       "\t/>",
       "</van-popup>"
     ],
-    "description": "Vant <van-coupon>"
+    "description": "Vant <van-coupon>优惠券</van-coupon>"
   },
   "Business: van-goods-action": {
     "prefix": "vangoods",
@@ -647,7 +647,7 @@
       "\t <van-goods-action-icon-button type=\"danger\"  text=\"立即购买\"   @click=\"\"/>",
       "</van-goods-action>"
     ],
-    "description": "Vant <van-goods-action>"
+    "description": "Vant <van-goods-action>商品导航</van-goods-action>"
   },
   "Business: van-submit-bar": {
     "prefix": "vansbar",
@@ -658,7 +658,7 @@
       "\t @submit=\"\"",
       "/>"
     ],
-    "description": "Vant <van-submit-bar>"
+    "description": "Vant <van-submit-bar>提交订单栏</van-submit-bar>"
   },
   "Business: van-sku": {
     "prefix": "vansku",
@@ -675,6 +675,6 @@
       "\t @add-cart=\"\"",
       "/>"
     ],
-    "description": "Vant <van-sku>"
+    "description": "Vant <van-sku>商品规格</van-sku>"
   }
 }
