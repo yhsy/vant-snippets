@@ -14,7 +14,7 @@
 [Element-UI-Snippets-VSCode](https://github.com/snowffer/Element-UI-Snippets-VSCode)
 
 ### Autocomplete
-![autocomplete](https://raw.githubusercontent.com/yhsy/vant-snippets/master/images/vant-auto1.gif)
+![autocomplete](https://s1.ax1x.com/2020/05/25/tCR6JJ.gif)
 
 ### Snippets List
 1. All the Vant tags below, ignore the closure and more detailed information. Such as `vanr` to `<van-row>`
