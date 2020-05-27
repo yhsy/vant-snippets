@@ -69,6 +69,11 @@
     ],
     "description": "Vant <van-col span=\"\">栅格布局(列元素)</van-col>"
   },
+  "Basic: Layout van-col-offset": {
+    "prefix": "vancoloffse",
+    "body": ["<van-col span=\"${1}\" offset=\"${2}\">${3}</van-col>"],
+    "description": "Vant <van-col offset=\"\">栅格布局-列元素偏移距离</van-col>"
+  },
   "Basic: van-popup": {
     "prefix": "vanpopup",
     "body": [
