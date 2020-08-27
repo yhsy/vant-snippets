@@ -10,8 +10,8 @@
     "prefix": "vancell",
     "body": [
       "<van-cell-group>",
-      "\t<van-cell title=\"单元格\" value=\"内容\"/>",
-      "\t<van-cell title=\"单元格\" value=\"内容\" label=\"描述内容\"/>",
+      "\t<van-cell title=\"单元格\" value=\"内容\" />",
+      "\t<van-cell title=\"单元格\" value=\"内容\" label=\"描述内容\" />",
       "</van-cell-group>"
     ],
     "description": "Vant <van-cell>单元格</van-vell>"
@@ -19,14 +19,14 @@
   "Basic: van-icon": {
     "prefix": "vanicon",
     "body": [
-      "<van-icon name=\"${1|success,plus,cross,fail,arrow,arrow-left,arrow-up,arrow-down|}\"/>"
+      "<van-icon name=\"${1|success,plus,cross,fail,arrow,arrow-left,arrow-up,arrow-down|}\" />"
     ],
     "description": "Vant <van-icon>Icon图标</van-icon>"
   },
   "Basic: van-image": {
     "prefix": "vanimg",
     "body": [
-      "<van-image src=\"${1}\" fit=\"${2|contain,cover,fill,none,scale-down|}\"  />"
+      "<van-image src=\"${1}\" fit=\"${2|contain,cover,fill,none,scale-down|}\" />"
     ],
     "description": "Vant <van-image>图片</van-image>"
   },
@@ -43,7 +43,7 @@
   "Basic: Layout van-row-flex": {
     "prefix": "vanrf",
     "body": [
-      "<van-row type=\"flex\" justify=\"${1|start,center,end,space-between,space-around|}\" >",
+      "<van-row type=\"flex\" justify=\"${1|start,center,end,space-between,space-around|}\">",
       "\t<van-col span=\"${2:6}\">${5}</van-col>",
       "\t<van-col span=\"${3:6}\">${6}</van-col>",
       "\t<van-col span=\"${4:6}\">${7}</van-col>",
@@ -107,7 +107,7 @@
   "Form: van-field": {
     "prefix": "vanfd",
     "body": [
-      "<van-field type=\"${1|text,password,textarea,number,tel,digit|}\" label=\"${2}\" placeholder=\"${3}\" v-model=\"${4}\"/>"
+      "<van-field type=\"${1|text,password,textarea,number,tel,digit|}\" label=\"${2}\" placeholder=\"${3}\" v-model=\"${4}\" />"
     ],
     "description": "Vant <van-field>输入框</van-field>"
   },
@@ -115,8 +115,8 @@
     "prefix": "vanform",
     "body": [
       "<van-form @submit=\"${1}\">",
-      "\t <van-field name=\"用户名\" label=\"用户名\" placeholder=\"请输入用户名\" v-model=\"${2}\" :rules=\"[{ required: true, message: '请填写用户名'}]\"/>",
-      "\t <van-field type=\"password\" name=\"密码\" label=\"密码\" placeholder=\"请输入密码\" v-model=\"${3}\" :rules=\"[{ required: true, message: '请填写密码'}]\"/>",
+      "\t <van-field name=\"用户名\" label=\"用户名\" placeholder=\"请输入用户名\" v-model=\"${2}\" :rules=\"[{ required: true, message: '请填写用户名'}]\" />",
+      "\t <van-field type=\"password\" name=\"密码\" label=\"密码\" placeholder=\"请输入密码\" v-model=\"${3}\" :rules=\"[{ required: true, message: '请填写密码'}]\" />",
       "\t <div style=\"margin: 16px;\">",
       "\t\t<van-button round block type=\"info\" native-type=\"submit\">提交</van-button>",
       "\t </div>",
@@ -128,15 +128,15 @@
     "prefix": "vankbn",
     "body": [
       "<van-cell @touchstart.native.stop=\"${1}\">弹出默认键盘</van-cell>",
-      "<van-number-keyboard:show=\"${2}\" @blur=\"${3}\" @input=\"${4}\" @delete=\"${5}\"/>"
+      "<van-number-keyboard:show=\"${2}\" @blur=\"${3}\" @input=\"${4}\" @delete=\"${5}\" />"
     ],
     "description": "Vant <van-number-keyboard>数字键盘</van-number-keyboard>"
   },
   "Form: van-pass": {
     "prefix": "vanpass",
     "body": [
-      "<van-password-input :value=\"${1}\" info=\"密码为 6 位数字\" :focused=\"${2}\" @focus=\"${3}\"/>",
-      "<van-number-keyboard :show=\"${4}\" @blur=\"${5}\" @input=\"${6}\" @delete=\"${7}\"/>"
+      "<van-password-input :value=\"${1}\" info=\"密码为 6 位数字\" :focused=\"${2}\" @focus=\"${3}\" />",
+      "<van-number-keyboard :show=\"${4}\" @blur=\"${5}\" @input=\"${6}\" @delete=\"${7}\" />"
     ],
     "description": "Vant <van-password-input>密码输入框</van-password-input>"
   },
@@ -145,7 +145,7 @@
     "body": [
       "<van-picker title=\"标题\" show-toolbar :columns=\"${1}\" @confirm=\"${2}\" @cancel=\"${3}\" @change=\"${4}\" />"
     ],
-    "description": "Vant <van-picker>选择器<van-picker>"
+    "description": "Vant <van-picker>选择器</van-picker>"
   },
   "Form: van-radio": {
     "prefix": "vanrd",
@@ -160,7 +160,7 @@
   "Form: van-rate": {
     "prefix": "vanrate",
     "body": [
-      "<van-rate v-model=\"${1}\"/>"
+      "<van-rate v-model=\"${1}\" />"
     ],
     "description": "Vant <van-rate>评分<van-rate>"
   },
@@ -174,28 +174,28 @@
   "Form: van-slider": {
     "prefix": "vanslider",
     "body": [
-      "<van-slider v-model=\"${1}\" @change=\"${2}\"/>"
+      "<van-slider v-model=\"${1}\" @change=\"${2}\" />"
     ],
     "description": "Vant <van-slider>滑块</van-slider>"
   },
   "Form: van-stepper": {
     "prefix": "vanstepper",
     "body": [
-      "<van-stepper v-model=\"${1}\"/>"
+      "<van-stepper v-model=\"${1}\" />"
     ],
     "description": "Vant <van-stepper>步进器</van-stepper>"
   },
   "Form: van-switch": {
     "prefix": "vanswitch",
     "body": [
-      "<van-switch v-model=\"${1}\"/>"
+      "<van-switch v-model=\"${1}\" />"
     ],
     "description": "Vant <van-switch>开关</van-switch>"
   },
   "Form: van-uploader": {
     "prefix": "vanup",
     "body": [
-      "<van-uploader :after-read=\"${1}\"/>"
+      "<van-uploader :after-read=\"${1}\" />"
     ],
     "description": "Vant <van-uploader :after-read=\"\">文件上传</van-uploader>"
   },
@@ -203,14 +203,14 @@
   "Action: van-action-sheet": {
     "prefix": "vanas",
     "body": [
-      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\"/>"
+      "<van-action-sheet  v-model=\"${1}\" :actions=\"\" @select=\"\" />"
     ],
     "description": "Vant <van-action-sheet>动作面板</van-action-sheet>"
   },
   "Action: van-dialog": {
     "prefix": "vandg",
     "body": [
-      "<van-dialog v-model=\"${1}\" title=\"${2}\" ></van-dialog>"
+      "<van-dialog v-model=\"${1}\" title=\"${2}\"></van-dialog>"
     ],
     "description": "Vant <van-dialog>弹出框</van-dialog>"
   },
@@ -244,8 +244,8 @@
     "prefix": "vandm",
     "body": [
       "<van-dropdown-menu>",
-      "\t <van-dropdown-item v-model=\"${1}\" :options=\"${2}\"/>",
-      "\t <van-dropdown-item v-model=\"${3}\" :options=\"${4}\"/>",
+      "\t <van-dropdown-item v-model=\"${1}\" :options=\"${2}\" />",
+      "\t <van-dropdown-item v-model=\"${3}\" :options=\"${4}\" />",
       "</van-dropdown-menu>"
     ],
     "description": "Vant <van-dropdown-menu>下拉菜单</van-dropdown-menu>"
@@ -253,7 +253,7 @@
   "Action: van-loading": {
     "prefix": "vanld",
     "body": [
-      "<van-loading type=\"${1|circular,spinner|}\"/>"
+      "<van-loading type=\"${1|circular,spinner|}\" />"
     ],
     "description": "Vant <van-loading>Loading加载</van-loading>"
   },
@@ -282,7 +282,7 @@
     "prefix": "vanshare",
     "body": [
       "<van-cell title=\"显示分享面板\" @click=\"${1}\" />",
-      "<van-share-sheet v-model=\"${2}\" title=\"立即分享给好友\" :options=\"${3}\" @select=\"${4}\"/>"
+      "<van-share-sheet v-model=\"${2}\" title=\"立即分享给好友\" :options=\"${3}\" @select=\"${4}\" />"
     ],
     "description": "Vant <van-swipe-cell>分享面板</van-swipe-cell>"
   },
@@ -296,7 +296,7 @@
       "\t <van-cell :border=\"false\" title=\"单元格\" value=\"内容\" />",
       "\t <template slot=\"right\">",
       "\t \t<van-button square type=\"danger\" text=\"删除\" />",
-      "\t \t<van-button square type=\"primary\" text=\"收藏\"/>",
+      "\t \t<van-button square type=\"primary\" text=\"收藏\" />",
       "\t </template>",
       "</van-swipe-cell>"
     ],
@@ -313,9 +313,9 @@
   "Display: van-circle": {
     "prefix": "vancircle",
     "body": [
-      "<van-circle v-model=\"${1}\" :rate=\"${2}\" :speed=\"${3}\" :text=\"${4}\"/>"
+      "<van-circle v-model=\"${1}\" :rate=\"${2}\" :speed=\"${3}\" :text=\"${4}\" />"
     ],
-    "description": "Vant <van-circle>环形进度条<van-circle>"
+    "description": "Vant <van-circle>环形进度条</van-circle>"
   },
   "Display: van-collapse": {
     "prefix": "vancollapse",
@@ -326,26 +326,26 @@
       "\t <van-collapse-item title=\"标题3\" name=\"3\">内容3</van-collapse-item>",
       "</van-collapse>"
     ],
-    "description": "Vant <van-collapse>折叠面板<van-collapse>"
+    "description": "Vant <van-collapse>折叠面板</van-collapse>"
   },
   "Display: van-count-down": {
     "prefix": "vancd",
     "body": [
-      "<van-count-down :time=\"${1}\"/>"
+      "<van-count-down :time=\"${1}\" />"
     ],
     "description": "Vant <van-count-down :time=\"60\">倒计时</van-count-down>"
   },
   "Display: van-divider": {
     "prefix": "vandv",
     "body": [
-      "<van-divider/>"
+      "<van-divider />"
     ],
     "description": "Vant <van-divider>分割线</van-divider>"
   },
   "Display: van-empty": {
     "prefix": "vanempty",
     "body": [
-      "<van-empty description=\"${1}\"/>"
+      "<van-empty description=\"${1}\" />"
     ],
     "description": "Vant <van-empty description=\"描述文字\">空状态</van-empty>"
   },
@@ -370,7 +370,7 @@
     "prefix": "vanlist",
     "body": [
       "<van-list v-model=\"${1}\" :finished=\"${2}\" finished-text=\"没有更多了\" @load=\"${3}\">",
-      "\t <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\"/>",
+      "\t <van-cell v-for=\"item in list\" :key=\"item\" :title=\"item\" />",
       "</van-list>"
     ],
     "description": "Vant <van-list>列表</van-list>"
@@ -380,7 +380,7 @@
     "body": [
       "<van-notice-bar text=\"通知内容\" left-icon=\"volume-o\" />"
     ],
-    "description": "Vant <van-notice-bar>"
+    "description": "Vant <van-notice-bar />"
   },
   "Display: van-panel": {
     "prefix": "vanpn",
@@ -415,7 +415,7 @@
       "\t <van-step>步骤4</van-step>",
       "</van-steps>"
     ],
-    "description": "Vant <van-steps>"
+    "description": "Vant <van-steps></van-steps>"
   },
   "Display: van-sticky": {
     "prefix": "vansticky",
@@ -450,10 +450,10 @@
     "prefix": "vangrid",
     "body": [
       "<van-grid>",
-      "\t <van-grid-item icon=\"${1}\" text=\"${2}\"/>",
-      "\t <van-grid-item icon=\"${3}\" text=\"${4}\"/>",
-      "\t <van-grid-item icon=\"${5}\" text=\"${6}\"/>",
-      "\t <van-grid-item icon=\"${7}\" text=\"${8}\"/>",
+      "\t <van-grid-item icon=\"${1}\" text=\"${2}\" />",
+      "\t <van-grid-item icon=\"${3}\" text=\"${4}\" />",
+      "\t <van-grid-item icon=\"${5}\" text=\"${6}\" />",
+      "\t <van-grid-item icon=\"${7}\" text=\"${8}\" />",
       "</van-grid>"
     ],
     "description": "Vant <van-grid>宫格</van-grid>"
@@ -462,7 +462,7 @@
     "prefix": "vanib",
     "body": [
       "<van-index-bar>",
-      "\t <van-index-anchor index=\"A\"/>",
+      "\t <van-index-anchor index=\"A\" />",
       "\t <van-cell title=\"文本\"/>",
       "\t <van-cell title=\"文本\"/>",
       "\t <van-cell title=\"文本\"/>",
@@ -478,24 +478,24 @@
   "Navigation: van-nav-bar": {
     "prefix": "vannb",
     "body": [
-      "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"${1}\" @click-right=\"${2}\"/>"
+      "<van-nav-bar title=\"标题\" left-text=\"返回\" right-text=\"按钮\" left-arrow @click-left=\"${1}\" @click-right=\"${2}\" />"
     ],
     "description": "Vant <van-nav-bar>导航栏</van-nav-bar>"
   },
   "Navigation: van-pagination": {
     "prefix": "vanpg",
     "body": [
-      "<van-pagination v-model=\"${1}\" :total-items=\"${2}\" :items-per-page=\"${3}\"/>"
+      "<van-pagination v-model=\"${1}\" :total-items=\"${2}\" :items-per-page=\"${3}\" />"
     ],
-    "description": "Vant <van-pagination>分页<van-pagination>"
+    "description": "Vant <van-pagination>分页</van-pagination>"
   },
   "Navigation: van-sidebar": {
     "prefix": "vansd",
     "body": [
       "<van-sidebar v-model=\"${1}\">",
-      "\t <van-sidebar-item title=\"标签名称\"/>",
-      "\t <van-sidebar-item title=\"标签名称\"/>",
-      "\t <van-sidebar-item title=\"标签名称\"/>",
+      "\t <van-sidebar-item title=\"标签名称\" />",
+      "\t <van-sidebar-item title=\"标签名称\" />",
+      "\t <van-sidebar-item title=\"标签名称\" />",
       "</van-sidebar>"
     ],
     "description": "Vant <van-sidebar>侧边导航</van-sidebar>"
@@ -646,10 +646,10 @@
     "prefix": "vangoods",
     "body": [
       "<van-goods-action>",
-      "\t <van-goods-action-icon icon=\"chat-o\" text=\"客服\"   @click=\"\"/>",
+      "\t <van-goods-action-icon icon=\"chat-o\" text=\"客服\"   @click=\"\" />",
       "\t <van-goods-action-icon icon=\"cart-o\" text=\"购物车\" @click=\"\"/>",
-      "\t <van-goods-action-icon-button type=\"warning\" text=\"加入购物车\" @click=\"\"/>",
-      "\t <van-goods-action-icon-button type=\"danger\"  text=\"立即购买\"   @click=\"\"/>",
+      "\t <van-goods-action-icon-button type=\"warning\" text=\"加入购物车\" @click=\"\" />",
+      "\t <van-goods-action-icon-button type=\"danger\"  text=\"立即购买\"   @click=\"\" />",
       "</van-goods-action>"
     ],
     "description": "Vant <van-goods-action>商品导航</van-goods-action>"
