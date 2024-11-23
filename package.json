@@ -44,11 +44,11 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/element-ui.json"
+        "path": "./snippets/vant-ui.json"
       },
       {
         "language": "html",
-        "path": "./snippets/element-ui.json"
+        "path": "./snippets/vant-ui.json"
       },
       {
         "language": "vue",
